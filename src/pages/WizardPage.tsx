@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { usePlans } from '../contexts/PlanContext';
 import { WizardProvider, useWizard } from '../contexts/WizardContext';
 import WizardLayout from '../components/wizard/WizardLayout';
@@ -11,6 +11,8 @@ import Step4AllergiesExclusions from '../components/wizard/steps/Step4AllergiesE
 import Step5ChooseRecipes from '../components/wizard/steps/Step5ChooseRecipes';
 import Step6FinalizePlan from '../components/wizard/steps/Step6FinalizePlan';
 import { mockOwners } from '../data/mockOwners';
+import { SelectOption } from '../types/nutrition';
+import DescriptionOutlined from '@mui/icons-material/DescriptionOutlined';
 
 // Wrapper component to use wizard context
 const WizardContent = () => {
@@ -22,6 +24,20 @@ const WizardContent = () => {
   const [_activeFilterCount, _setActiveFilterCount] = useState(0);
 
   const plan = getPlanById(id || '');
+
+  // Template option for dropdown
+  const TEMPLATE_OPTION: SelectOption = {
+    id: 'template',
+    name: 'Template',
+    avatarUrl: null,
+    isTemplate: true,
+    icon: <DescriptionOutlined sx={{ fontSize: 14, color: '#385459' }} />
+  };
+
+  // Merge template with owners (template first)
+  const availableOptions = useMemo(() => {
+    return [TEMPLATE_OPTION, ...mockOwners];
+  }, []);
 
   // Handle filter changes from FilterPanel
   const handleFilterChange = (filters: Record<string, string[]>) => {
@@ -50,7 +66,7 @@ const WizardContent = () => {
     switch (currentStepIndex) {
       case -1:
         // Plan info confirmation page
-        return <Step1PlanInfo availableOwners={mockOwners} />;
+        return <Step1PlanInfo availableOwners={availableOptions} />;
       case 0:
         return <Step2NutritionGoals />;
       case 1:

@@ -1,6 +1,7 @@
+import { forwardRef } from 'react';
 import { InputProps } from '../../types/nutrition';
 
-const Input = ({
+const Input = forwardRef<HTMLInputElement, InputProps>(({
   label,
   value,
   onChange,
@@ -10,7 +11,7 @@ const Input = ({
   className = '',
   type = 'text',
   autoFocus = false,
-}: InputProps) => {
+}, ref) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChange(e.target.value);
   };
@@ -18,6 +19,7 @@ const Input = ({
   return (
     <div className={`relative ${className}`}>
       <input
+        ref={ref}
         type={type}
         value={value}
         onChange={handleChange}
@@ -56,6 +58,8 @@ const Input = ({
       )}
     </div>
   );
-};
+});
+
+Input.displayName = 'Input';
 
 export default Input;

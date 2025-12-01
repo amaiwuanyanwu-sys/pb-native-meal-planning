@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { NutritionPlan } from '../types/nutrition';
+import { NutritionPlan, SelectOption } from '../types/nutrition';
 import { usePlans } from '../contexts/PlanContext';
 import { mockOwners } from '../data/mockOwners';
 import MainTemplate from '../components/layout/MainTemplate';
@@ -9,6 +9,7 @@ import NutritionPlansHeader from '../components/nutrition-plans/NutritionPlansHe
 import NutritionPlanListItem from '../components/nutrition-plans/NutritionPlanListItem';
 import TabControlPanel from '../components/common/TabControlPanel';
 import NewNutritionPlanModal from '../components/nutrition-plans/NewNutritionPlanModal';
+import DescriptionOutlined from '@mui/icons-material/DescriptionOutlined';
 
 type NutritionPlanTab = 'all' | 'shared' | 'draft';
 
@@ -25,6 +26,20 @@ const NutritionPlansPage = () => {
     { id: 'shared' as NutritionPlanTab, label: 'Shared' },
     { id: 'draft' as NutritionPlanTab, label: 'Draft' },
   ];
+
+  // Template option for dropdown
+  const TEMPLATE_OPTION: SelectOption = {
+    id: 'template',
+    name: 'Template',
+    avatarUrl: null,
+    isTemplate: true,
+    icon: <DescriptionOutlined sx={{ fontSize: 14, color: '#385459' }} />
+  };
+
+  // Merge template with owners (template first)
+  const availableOptions = useMemo(() => {
+    return [TEMPLATE_OPTION, ...mockOwners];
+  }, []);
 
   // Filter and sort plans by tab and search query
   const filteredPlans = useMemo(() => {
@@ -65,7 +80,28 @@ const NutritionPlansPage = () => {
   const handleModalSubmit = (planData: { title: string; ownerId: string | null }) => {
     const now = new Date().toISOString();
 
-    // Find the selected owner to get their name and avatar
+    // Handle template case
+    if (planData.ownerId === 'template') {
+      const newPlan: NutritionPlan = {
+        id: `plan-${Date.now()}`,
+        title: planData.title,
+        plansCount: 0,
+        recipesCount: 0,
+        avatarUrl: null,
+        ownerName: '',  // Empty for templates
+        status: 'active',
+        createdAt: now,
+        lastAccessedAt: now,
+        visibility: 'draft',
+      };
+
+      addPlan(newPlan);
+      setIsModalOpen(false);
+      navigate(`/plans/${newPlan.id}`);
+      return;
+    }
+
+    // Handle client case (find owner details)
     const selectedOwner = planData.ownerId
       ? mockOwners.find(owner => owner.id === planData.ownerId)
       : null;
@@ -80,6 +116,7 @@ const NutritionPlansPage = () => {
       status: 'active',
       createdAt: now,
       lastAccessedAt: now,
+      visibility: selectedOwner ? 'shared' : 'draft',
     };
 
     addPlan(newPlan);
@@ -143,7 +180,7 @@ const NutritionPlansPage = () => {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         onSubmit={handleModalSubmit}
-        availableOwners={mockOwners}
+        availableOwners={availableOptions}
       />
     </>
   );

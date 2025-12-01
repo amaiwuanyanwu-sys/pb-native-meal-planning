@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import Chip from '@mui/material/Chip';
@@ -7,11 +7,12 @@ import Divider from '@mui/material/Divider';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import TrackChangesIcon from '@mui/icons-material/TrackChanges';
 import ExclusionIcon from '@mui/icons-material/NoFoodOutlined';
+import DescriptionOutlined from '@mui/icons-material/DescriptionOutlined';
 import Avatar from '../common/Avatar';
 import Select from '../common/Select';
 import Button from '../common/Button';
 import MultiSelectField from '../common/MultiSelectField';
-import { NutritionPlan } from '../../types/nutrition';
+import { NutritionPlan, SelectOption } from '../../types/nutrition';
 import { FOOD_EXCLUSIONS } from '../../constants/foodExclusions';
 import { mockOwners } from '../../data/mockOwners';
 
@@ -108,8 +109,25 @@ const parseToArray = (value: string | undefined): string[] => {
 
 const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focusField }: EditPlanFormProps) => {
   const [planName, setPlanName] = useState(plan.title);
-  // Find the owner ID based on the name
-  const initialOwnerId = mockOwners.find(o => o.name === plan.ownerName)?.id || null;
+
+  // Template option for dropdown
+  const TEMPLATE_OPTION: SelectOption = useMemo(() => ({
+    id: 'template',
+    name: 'Template',
+    avatarUrl: null,
+    isTemplate: true,
+    icon: <DescriptionOutlined sx={{ fontSize: 14, color: '#385459' }} />
+  }), []);
+
+  // Merge template with owners (template first)
+  const availableOptions = useMemo(() => {
+    return [TEMPLATE_OPTION, ...mockOwners];
+  }, [TEMPLATE_OPTION]);
+
+  // Find the owner ID based on the name (or template if no owner)
+  const initialOwnerId = plan.ownerName
+    ? mockOwners.find(o => o.name === plan.ownerName)?.id || null
+    : 'template';
   const [ownerId, setOwnerId] = useState<string | null>(initialOwnerId);
   const [ownerDropdownOpen, setOwnerDropdownOpen] = useState(openOwnerDropdown);
   const [dietaryPreferences, setDietaryPreferences] = useState<string[]>(
@@ -160,6 +178,19 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
 
 
   const handleSave = () => {
+    // Handle template case
+    if (ownerId === 'template') {
+      onSave({
+        title: planName,
+        ownerName: '',
+        avatarUrl: null,
+        dietaryPreferences: dietaryPreferences.join(', '),
+        goals: goals.join(', '),
+        exclusions: exclusions.join(', '),
+      });
+      return;
+    }
+
     // Find the owner name and avatar from the ID
     const selectedOwner = mockOwners.find(o => o.id === ownerId);
 
@@ -229,9 +260,17 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
         </div>
 
         <div className="p-4 flex flex-col gap-6">
-          {/* Client */}
+          {/* Owner */}
           <div className="flex items-start gap-3">
             {(() => {
+              if (ownerId === 'template') {
+                return (
+                  <div className="w-6 h-6 rounded-md flex items-center justify-center bg-[#DFE3E4] mt-2">
+                    {TEMPLATE_OPTION.icon}
+                  </div>
+                );
+              }
+
               const selectedOwner = mockOwners.find(o => o.id === ownerId);
               return (
                 <Avatar
@@ -244,10 +283,10 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
             })()}
             <div className="flex-1">
               <Select
-                label="Client"
+                label="Owner"
                 value={ownerId}
                 onChange={setOwnerId}
-                options={mockOwners}
+                options={availableOptions}
                 open={ownerDropdownOpen}
                 onOpenChange={setOwnerDropdownOpen}
                 showAvatar={false}

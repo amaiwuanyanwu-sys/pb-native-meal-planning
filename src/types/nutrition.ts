@@ -103,12 +103,15 @@ export interface InputProps {
   className?: string;
   type?: string;
   autoFocus?: boolean;
+  ref?: React.Ref<HTMLInputElement>;
 }
 
 export interface SelectOption {
   id: string;
   name: string;
   avatarUrl: string | null;
+  isTemplate?: boolean;
+  icon?: React.ReactNode;
 }
 
 export interface SelectProps {
