@@ -50,3 +50,19 @@ export const getAvatarColor = (name: string): string => {
   const index = hash % AVATAR_COLORS.length;
   return AVATAR_COLORS[index];
 };
+
+/**
+ * Generate a realistic photo avatar URL
+ * Uses randomuser.me API for high-quality, realistic human photos
+ * @param gender - Gender to determine avatar ('male' or 'female')
+ * @param seed - Unique seed to ensure consistent avatar for the same person
+ * @returns Avatar URL
+ */
+export const generatePhotoAvatar = (
+  gender: 'male' | 'female' = 'female',
+  seed: string
+): string => {
+  // Use randomuser.me API which provides realistic, high-quality photos
+  // The seed parameter ensures the same person always gets the same photo
+  return `https://randomuser.me/api/portraits/${gender === 'male' ? 'men' : 'women'}/${seed}.jpg`;
+};
