@@ -8,6 +8,7 @@ const Input = ({
   required = false,
   error,
   className = '',
+  type = 'text',
 }: InputProps) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChange(e.target.value);
@@ -16,7 +17,7 @@ const Input = ({
   return (
     <div className={`relative ${className}`}>
       <input
-        type="text"
+        type={type}
         value={value}
         onChange={handleChange}
         placeholder=" "

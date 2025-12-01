@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useWizard, clearDraft } from '../../../contexts/WizardContext';
 import { usePlans } from '../../../contexts/PlanContext';
+import Input from '../../common/Input';
 import WizardNavigation from '../WizardNavigation';
-import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
@@ -16,12 +16,11 @@ const Step6FinalizePlan = () => {
 
   // State
   const [selectedDuration, setSelectedDuration] = useState<MealPlanDuration>('week');
-  const [useJournalTargets, setUseJournalTargets] = useState(true);
   const [nutritionTargets, setNutritionTargets] = useState({
-    calories: formData.nutritionGoals.calorieTarget || '',
-    protein: formData.nutritionGoals.proteinGrams || '',
-    carbs: formData.nutritionGoals.carbsGrams || '',
-    fats: formData.nutritionGoals.fatsGrams || '',
+    calories: formData.nutritionGoals.calorieTarget?.toString() || '',
+    protein: formData.nutritionGoals.proteinGrams?.toString() || '',
+    carbs: formData.nutritionGoals.carbsGrams?.toString() || '',
+    fats: formData.nutritionGoals.fatsGrams?.toString() || '',
   });
 
   // Get selected recipes for display
@@ -224,11 +223,11 @@ const Step6FinalizePlan = () => {
             </div>
           </div>
 
-          {/* Daily Nutrition Targets Widget */}
-          <div className="bg-white border border-[#DFE3E4] rounded-lg overflow-hidden">
-            {/* Widget Header */}
-            <div className="bg-[#F0F2F3] border-b border-[#DFE3E4] px-4 py-2 flex items-center justify-between">
-              <div className="flex items-center gap-2">
+          {/* Daily Nutrition Targets Widget - Only show when a meal plan is selected */}
+          {selectedDuration !== 'none' && (
+            <div className="bg-white border border-[#DFE3E4] rounded-lg overflow-hidden">
+              {/* Widget Header */}
+              <div className="bg-[#F0F2F3] border-b border-[#DFE3E4] px-4 py-2 flex items-center gap-2">
                 <svg className="w-6 h-6 text-[#657A7E]" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-9h10v2H7z"/>
                   <circle cx="12" cy="12" r="3" fill="currentColor"/>
@@ -237,79 +236,57 @@ const Step6FinalizePlan = () => {
                   Daily nutrition targets
                 </span>
               </div>
-              <button
-                onClick={() => setUseJournalTargets(!useJournalTargets)}
-                className="flex items-center gap-3"
-              >
-                <CheckBoxIcon
-                  sx={{
-                    fontSize: 24,
-                    color: useJournalTargets ? '#385459' : '#96A5A8',
-                  }}
-                />
-                <span className="text-sm font-semibold text-[#244348] leading-[1.4]">
-                  Use targets from journals
-                </span>
-              </button>
-            </div>
 
-            {/* Widget Body */}
-            <div className="bg-white p-4 flex flex-col gap-3">
-              <div className="flex gap-4">
-                <div className="flex-1">
-                  <input
-                    type="text"
-                    placeholder="Cal (kcal)"
-                    value={nutritionTargets.calories}
-                    onChange={(e) =>
-                      setNutritionTargets({ ...nutritionTargets, calories: e.target.value })
-                    }
-                    disabled={useJournalTargets}
-                    className="w-full h-10 px-3 border border-[#C1C9CB] rounded text-sm font-medium text-[#244348] leading-[1.4] placeholder-[#96A5A8] disabled:bg-[#F0F2F3] disabled:text-[#96A5A8] disabled:cursor-not-allowed focus:outline-none focus:border-[#385459] focus:ring-1 focus:ring-[#385459]"
-                  />
+              {/* Widget Body */}
+              <div className="bg-white p-4 flex flex-col gap-3">
+                <div className="flex gap-4">
+                  <div className="flex-1">
+                    <Input
+                      label="Calories (kcal)"
+                      type="number"
+                      value={nutritionTargets.calories}
+                      onChange={(val) =>
+                        setNutritionTargets({ ...nutritionTargets, calories: val })
+                      }
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <Input
+                      label="Protein (g)"
+                      type="number"
+                      value={nutritionTargets.protein}
+                      onChange={(val) =>
+                        setNutritionTargets({ ...nutritionTargets, protein: val })
+                      }
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <Input
+                      label="Carbs (g)"
+                      type="number"
+                      value={nutritionTargets.carbs}
+                      onChange={(val) =>
+                        setNutritionTargets({ ...nutritionTargets, carbs: val })
+                      }
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <Input
+                      label="Fat (g)"
+                      type="number"
+                      value={nutritionTargets.fats}
+                      onChange={(val) =>
+                        setNutritionTargets({ ...nutritionTargets, fats: val })
+                      }
+                    />
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <input
-                    type="text"
-                    placeholder="Protein (g)"
-                    value={nutritionTargets.protein}
-                    onChange={(e) =>
-                      setNutritionTargets({ ...nutritionTargets, protein: e.target.value })
-                    }
-                    disabled={useJournalTargets}
-                    className="w-full h-10 px-3 border border-[#C1C9CB] rounded text-sm font-medium text-[#244348] leading-[1.4] placeholder-[#96A5A8] disabled:bg-[#F0F2F3] disabled:text-[#96A5A8] disabled:cursor-not-allowed focus:outline-none focus:border-[#385459] focus:ring-1 focus:ring-[#385459]"
-                  />
-                </div>
-                <div className="flex-1">
-                  <input
-                    type="text"
-                    placeholder="Carb (g)"
-                    value={nutritionTargets.carbs}
-                    onChange={(e) =>
-                      setNutritionTargets({ ...nutritionTargets, carbs: e.target.value })
-                    }
-                    disabled={useJournalTargets}
-                    className="w-full h-10 px-3 border border-[#C1C9CB] rounded text-sm font-medium text-[#244348] leading-[1.4] placeholder-[#96A5A8] disabled:bg-[#F0F2F3] disabled:text-[#96A5A8] disabled:cursor-not-allowed focus:outline-none focus:border-[#385459] focus:ring-1 focus:ring-[#385459]"
-                  />
-                </div>
-                <div className="flex-1">
-                  <input
-                    type="text"
-                    placeholder="Fat (g)"
-                    value={nutritionTargets.fats}
-                    onChange={(e) =>
-                      setNutritionTargets({ ...nutritionTargets, fats: e.target.value })
-                    }
-                    disabled={useJournalTargets}
-                    className="w-full h-10 px-3 border border-[#C1C9CB] rounded text-sm font-medium text-[#244348] leading-[1.4] placeholder-[#96A5A8] disabled:bg-[#F0F2F3] disabled:text-[#96A5A8] disabled:cursor-not-allowed focus:outline-none focus:border-[#385459] focus:ring-1 focus:ring-[#385459]"
-                  />
-                </div>
+                <p className="text-xs font-medium text-[#657A7E] leading-[1.5]">
+                  These are daily targets—adjust them based on your client's needs
+                </p>
               </div>
-              <p className="text-xs font-medium text-[#657A7E] leading-[1.5]">
-                These are daily targets—adjust them based on your client's needs
-              </p>
             </div>
-          </div>
+          )}
         </div>
       </div>
 

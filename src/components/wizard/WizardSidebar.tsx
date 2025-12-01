@@ -2,6 +2,7 @@ import VerticalStepper from './VerticalStepper';
 import { WizardStep } from '../../types/wizard';
 import { WIZARD_STEP_ICONS } from '../../utils/wizardIcons';
 import CollapsibleRailHeader from '../common/CollapsibleRailHeader';
+import Tooltip from '@mui/material/Tooltip';
 
 interface WizardSidebarProps {
   steps: WizardStep[];
@@ -30,10 +31,10 @@ const WizardSidebar = ({
         />
 
         {/* Collapsed Stepper - Just Icons */}
-        <div className="flex-1 p-3 overflow-y-auto overflow-x-hidden flex flex-col gap-3">
+        <div className="flex-1 p-3 overflow-y-auto overflow-x-hidden flex flex-col">
           {steps.map((step, index) => {
             const IconComponent = WIZARD_STEP_ICONS[step.icon];
-            const connectorFilled = index > 0 && steps[index - 1].status === 'completed';
+            const connectorFilled = step.status === 'active' || step.status === 'completed';
             const showConnector = index < steps.length - 1;
 
             // Indicator styles based on status
@@ -50,28 +51,53 @@ const WizardSidebar = ({
               disabled: 'text-[#96A5A8]',
             };
 
+            const isClickable = step.status === 'completed' || step.status === 'active';
+
             return (
-              <div key={step.id} className="relative flex flex-col items-center">
+              <div key={step.id} className="relative flex flex-col items-center pb-3 min-h-[68px]">
                 {/* Progress Connector */}
                 {showConnector && (
                   <div
-                    className="absolute top-8 w-1 h-3"
+                    className="absolute top-8 w-1 bottom-0"
                     style={{
                       backgroundColor: connectorFilled ? '#385459' : '#DFE3E4',
                     }}
                   />
                 )}
 
-                {/* Indicator Circle */}
-                <div
-                  className={`
-                    relative flex items-center justify-center
-                    w-8 h-8 rounded-full shrink-0
-                    ${indicatorClasses[step.status]}
-                  `}
+                {/* Indicator Circle with Tooltip */}
+                <Tooltip
+                  title={step.label}
+                  placement="right"
+                  arrow
+                  slotProps={{
+                    tooltip: {
+                      sx: {
+                        backgroundColor: '#244348',
+                        fontSize: '0.75rem',
+                        fontFamily: 'Inter',
+                        fontWeight: 500,
+                        padding: '6px 12px',
+                        '& .MuiTooltip-arrow': {
+                          color: '#244348',
+                        },
+                      },
+                    },
+                  }}
                 >
-                  <IconComponent sx={{ fontSize: 20 }} className={iconColorClasses[step.status]} />
-                </div>
+                  <button
+                    onClick={() => isClickable && onStepClick(index)}
+                    disabled={!isClickable}
+                    className={`
+                      relative flex items-center justify-center
+                      w-8 h-8 rounded-full shrink-0
+                      ${indicatorClasses[step.status]}
+                      ${isClickable ? 'cursor-pointer hover:shadow-md transition-shadow' : 'cursor-not-allowed'}
+                    `}
+                  >
+                    <IconComponent sx={{ fontSize: 20 }} className={iconColorClasses[step.status]} />
+                  </button>
+                </Tooltip>
               </div>
             );
           })}

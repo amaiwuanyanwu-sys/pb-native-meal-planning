@@ -101,6 +101,7 @@ export interface InputProps {
   required?: boolean;
   error?: string;
   className?: string;
+  type?: string;
 }
 
 export interface SelectOption {
