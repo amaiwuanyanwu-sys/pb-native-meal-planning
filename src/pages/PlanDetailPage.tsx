@@ -8,6 +8,7 @@ import Button from '../components/common/Button';
 import PlanDetailTabs from '../components/plan-detail/PlanDetailTabs';
 import MealPlanCard from '../components/plan-detail/MealPlanCard';
 import RecipeCard from '../components/common/RecipeCard';
+import RecipeCardSmall from '../components/plan-detail/RecipeCard';
 import PlanDetailSidebar from '../components/plan-detail/PlanDetailSidebar';
 import AddIcon from '@mui/icons-material/Add';
 import ShareIcon from '@mui/icons-material/Share';
@@ -391,7 +392,7 @@ const PlanDetailPage = () => {
                       {plan.recipes && plan.recipes.length > 0 ? (
                         <div className="grid grid-cols-3 gap-3">
                           {plan.recipes.slice(0, 6).map((recipe) => (
-                            <RecipeCard key={recipe.id} recipe={recipe} />
+                            <RecipeCardSmall key={recipe.id} recipe={recipe} />
                           ))}
                         </div>
                       ) : (

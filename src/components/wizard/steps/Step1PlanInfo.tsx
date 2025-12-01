@@ -50,6 +50,9 @@ const Step1PlanInfo = ({ availableOwners }: Step1PlanInfoProps) => {
     navigate(`/plans/${planId}`);
   };
 
+  // Check if Next button should be disabled
+  const isNextDisabled = planName.trim().length < 3;
+
   return (
     <div className="flex flex-col h-full">
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-8 overflow-y-auto">
@@ -95,6 +98,7 @@ const Step1PlanInfo = ({ availableOwners }: Step1PlanInfoProps) => {
         onCancel={handleCancel}
         nextLabel="Next: Nutrition goals"
         showCancel={true}
+        isNextDisabled={isNextDisabled}
       />
     </div>
   );

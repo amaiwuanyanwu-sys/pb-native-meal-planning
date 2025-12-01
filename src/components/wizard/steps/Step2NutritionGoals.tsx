@@ -72,6 +72,10 @@ const Step2NutritionGoals = () => {
     navigate(`/plans/${planId}`);
   };
 
+  // Check if Next button should be disabled - require at least one goal
+  const isNextDisabled = selectedGoals.length === 0 ||
+    (selectedGoals.includes('Other') && !otherGoalText.trim());
+
   return (
     <div className="flex flex-col h-full">
       <div className="flex-1 flex flex-col items-center px-6 py-8 overflow-y-auto">
@@ -160,6 +164,7 @@ const Step2NutritionGoals = () => {
         nextLabel="Next: Dietary preferences"
         showPrevious={true}
         showCancel={true}
+        isNextDisabled={isNextDisabled}
       />
     </div>
   );
