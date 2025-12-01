@@ -153,7 +153,7 @@ const Step5ChooseRecipes = () => {
             </div>
             <TextField
               fullWidth
-              placeholder="Search recipes by name, cuisine, or tags..."
+              placeholder="Search recipes"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               InputProps={{

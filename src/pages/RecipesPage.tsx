@@ -74,7 +74,7 @@ const RecipesPage = () => {
           onTabChange={setActiveTab}
           searchValue={searchQuery}
           onSearchChange={setSearchQuery}
-          searchPlaceholder="Search recipes..."
+          searchPlaceholder="Search recipes"
         />
 
         {/* Recipe Grid */}
