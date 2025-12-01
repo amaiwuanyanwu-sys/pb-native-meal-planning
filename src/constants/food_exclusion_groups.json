@@ -1,0 +1,8972 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-12-01T16:31:00.708Z",
+  "groups": [
+    {
+      "id": "alliums",
+      "name": "Alliums",
+      "type": "food-family",
+      "searchTerms": [
+        "allium",
+        "alliums",
+        "onion family",
+        "garlic family",
+        "onion",
+        "garlic",
+        "leek",
+        "shallot",
+        "chive"
+      ],
+      "csvColumn": "alliumfree",
+      "members": [
+        "Garlic",
+        "Leeks",
+        "Yellow Onion",
+        "Red Onion",
+        "Sweet Onion",
+        "Green Onion",
+        "Vegetable Broth",
+        "Salsa",
+        "White Onion",
+        "Garlic Powder",
+        "Onion Powder",
+        "Hummus",
+        "French Shallot",
+        "Chicken Sausage",
+        "Chicken Broth",
+        "Refried Beans",
+        "Chives",
+        "Barbecue Sauce",
+        "Cajun Spice",
+        "Beef Broth",
+        "Greek Seasoning",
+        "Dried Onion Flakes",
+        "Thai Red Curry Paste",
+        "Pesto",
+        "Shallot",
+        "Hot Sauce",
+        "Yellow Curry Paste",
+        "Lamb Sausage",
+        "Tomato Sauce",
+        "Pork Sausage",
+        "Dried Chives",
+        "Turkey Sausage",
+        "Chorizo",
+        "Relish",
+        "Bone Broth",
+        "Sriracha",
+        "Harissa",
+        "Everything Bagel Seasoning",
+        "Cajun Seasoning",
+        "Cajun Smoked Andouille Sausage",
+        "Jerk Seasoning",
+        "Tzatziki",
+        "Baba Ganoush",
+        "Jerk Marinade",
+        "Creole Seasoning",
+        "Green Curry Paste",
+        "Taco Seasoning",
+        "Tikka Masala Paste",
+        "Hoisin Sauce",
+        "Paneer Masala",
+        "Berbere Spice",
+        "Enchilada Sauce",
+        "Vegetable Broth, Low Sodium",
+        "Chana Masala Spice Blend",
+        "Peri Peri Spice",
+        "Pickled Red Onions",
+        "Marinara Sauce",
+        "Vegan Ranch Dressing",
+        "Tandoori Masala",
+        "Veggie Burger Patty",
+        "Italian Dressing",
+        "Green Goddess Salad Dressing",
+        "Guacamole",
+        "Chicken Broth, Low Sodium",
+        "Frozen Meatballs",
+        "Garlic Scapes",
+        "Worcestershire Sauce",
+        "Cilantro Lime Dressing",
+        "Vegan Caesar Dressing",
+        "Tartar Sauce",
+        "Callaloo",
+        "Pizza Sauce",
+        "Sun Dried Tomato Pesto",
+        "Frozen Falafel",
+        "Mediterranean Spice Blend",
+        "Steak Spice Seasoning",
+        "Teriyaki Sauce",
+        "Cheese Ravioli",
+        "Venison Sausage",
+        "Caesar Dressing",
+        "Ranch Dressing",
+        "Sweet Chili Sauce",
+        "Salsa Verde",
+        "Fajita Seasoning",
+        "Beef Ravioli",
+        "Adobo Seasoning",
+        "Sweet & Sour Sauce",
+        "Toothpicks",
+        "Sesame Ginger Dressing",
+        "Beef Stick",
+        "Turkey Stick",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "nightshades",
+      "name": "Nightshades",
+      "type": "food-family",
+      "searchTerms": [
+        "nightshade",
+        "nightshades",
+        "solanaceae",
+        "tomato",
+        "pepper",
+        "potato",
+        "eggplant"
+      ],
+      "csvColumn": "nightshadefree",
+      "members": [
+        "Cherry Tomatoes",
+        "Tomato",
+        "Yellow Bell Pepper",
+        "Red Bell Pepper",
+        "Green Bell Pepper",
+        "Jalapeno Pepper",
+        "Eggplant",
+        "Cayenne Pepper",
+        "Red Pepper Flakes",
+        "Chili Powder",
+        "Paprika",
+        "Salsa",
+        "Diced Tomatoes",
+        "Crushed Tomatoes",
+        "Tabasco Sauce",
+        "Sun Dried Tomatoes",
+        "Tomato Paste",
+        "Canned Whole Tomatoes",
+        "Mini Peppers",
+        "Kimchi",
+        "Barbecue Sauce",
+        "Mini Potatoes",
+        "Thai Chili",
+        "Cajun Spice",
+        "Yellow Potato",
+        "Smoked Paprika",
+        "Thai Red Curry Paste",
+        "Orange Bell Pepper",
+        "Hot Sauce",
+        "Yellow Curry Paste",
+        "Tomato Sauce",
+        "Red Hot Chili Pepper",
+        "Chinese Five Spice",
+        "Goji Berries",
+        "Roasted Red Peppers",
+        "Russet Potato",
+        "Sugar Free Ketchup",
+        "Chorizo",
+        "Chili Flakes",
+        "Sriracha",
+        "Green Chili Pepper",
+        "Fire Roasted Diced Tomatoes",
+        "Harissa",
+        "Tomato Juice",
+        "Shishito Peppers",
+        "Cajun Seasoning",
+        "Cajun Smoked Andouille Sausage",
+        "Jerk Seasoning",
+        "Habanero Pepper",
+        "Baba Ganoush",
+        "Green Tomato",
+        "Pickled Green Tomato",
+        "Wasabi Paste",
+        "Persimmon",
+        "Biryani Masala",
+        "Jerk Marinade",
+        "Creole Seasoning",
+        "Green Curry Paste",
+        "Taco Seasoning",
+        "Madras Curry Powder",
+        "Tikka Masala Paste",
+        "Hoisin Sauce",
+        "Pickled Banana Peppers",
+        "Old Bay Seasoning",
+        "Paneer Masala",
+        "Hot Banana Pepper",
+        "Berbere Spice",
+        "Enchilada Sauce",
+        "Gochujang",
+        "Tamarind Paste",
+        "Moroccan Spice Blend",
+        "Tamarind Flesh",
+        "Chana Masala Spice Blend",
+        "Peri Peri Spice",
+        "Hashbrowns",
+        "Marinara Sauce",
+        "Tomato Purée",
+        "Chaat Masala",
+        "Masala Chai Spice",
+        "Tandoori Masala",
+        "Stir Fry Vegetable Mix",
+        "Pepperoni",
+        "Italian Dressing",
+        "Tomatillo",
+        "Poblano Pepper",
+        "Guacamole",
+        "Salami, Mild",
+        "Potato Gnocchi",
+        "Frozen French Fries",
+        "Chicken Hot Dog",
+        "Chipotle Powder",
+        "Dried Guajillo Chilis",
+        "Worcestershire Sauce",
+        "Vegan Caesar Dressing",
+        "Red Potato",
+        "Tartar Sauce",
+        "Pepperoncini Peppers",
+        "Scotch Bonnet",
+        "Pizza Sauce",
+        "Sun Dried Tomato Pesto",
+        "Quince",
+        "Brown Rice Lasagna Sheets",
+        "Steak Spice Seasoning",
+        "Potato Starch",
+        "Vindaloo Spice Blend",
+        "Sweet Chili Sauce",
+        "Sambal Oelek",
+        "Salsa Verde",
+        "Shawarma Spice Blend",
+        "Fajita Seasoning",
+        "Kashmiri Chili Powder",
+        "Panang Curry Paste",
+        "Corned Beef",
+        "Muffuletta Salad",
+        "Pickled Chipotle Peppers",
+        "Wasabi Peas",
+        "Passata",
+        "Pickled Jalapeno Pepper",
+        "Sweet & Sour Sauce",
+        "Toothpicks",
+        "Turkey Stick",
+        "Serrano Pepper",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "citrus",
+      "name": "Citrus",
+      "type": "food-family",
+      "searchTerms": [
+        "citrus",
+        "orange",
+        "lemon",
+        "lime",
+        "grapefruit"
+      ],
+      "csvColumn": "citrusfree",
+      "members": [
+        "Lemon",
+        "Lime",
+        "Navel Orange",
+        "Grapefruit",
+        "Salsa",
+        "Clementines",
+        "Hummus",
+        "Lemon Juice",
+        "Orange Juice",
+        "Lemon Zest",
+        "Grapefruit Juice",
+        "Lime Juice",
+        "Blood Orange",
+        "Orange Zest",
+        "Tzatziki",
+        "Baba Ganoush",
+        "Pomelo",
+        "Sweetened Dried Lemon Peel",
+        "Vegan Ranch Dressing",
+        "Italian Dressing",
+        "Guacamole",
+        "Cilantro Lime Dressing",
+        "Lemon Pepper Seasoning",
+        "Vegan Caesar Dressing",
+        "Tartar Sauce",
+        "Orange Extract",
+        "Caesar Dressing",
+        "Ranch Dressing",
+        "Salsa Verde",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "tree-nuts",
+      "name": "Tree Nuts",
+      "type": "allergen",
+      "searchTerms": [
+        "nuts",
+        "tree nuts",
+        "nut allergy",
+        "almond",
+        "walnut",
+        "pecan",
+        "cashew"
+      ],
+      "csvColumn": "nutfree",
+      "members": [
+        "Almond Flour",
+        "Almond Butter",
+        "All Natural Peanut Butter",
+        "Almonds",
+        "Pecans",
+        "Cashews",
+        "Pine Nuts",
+        "Slivered Almonds",
+        "Walnuts",
+        "Clean Trail Mix",
+        "Unsweetened Almond Milk",
+        "Pistachios",
+        "Raw Peanuts",
+        "Macadamia Nut Butter",
+        "Brazil Nuts",
+        "Macadamia Nuts",
+        "Sliced Almonds",
+        "Hazelnuts",
+        "Unsweetened Cashew Milk",
+        "Cashew Cream Cheese",
+        "Pistachios, In Shell",
+        "Cashew Butter",
+        "Muesli",
+        "Paneer Masala",
+        "Vegan Cream Cheese",
+        "Vegan Ranch Dressing",
+        "Blanched Almonds",
+        "Almond Extract",
+        "Peanut Sauce",
+        "Mixed Nuts",
+        "Chestnuts",
+        "Chestnuts, In Shell",
+        "Panang Curry Paste",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "dairy",
+      "name": "Dairy",
+      "type": "allergen",
+      "searchTerms": [
+        "dairy",
+        "milk",
+        "lactose",
+        "cheese",
+        "yogurt",
+        "cream"
+      ],
+      "csvColumn": "dairyfree",
+      "members": [
+        "Feta Cheese",
+        "Goat Cheese",
+        "Parmigiano Reggiano",
+        "Cream, Half & Half",
+        "Small Bocconcini",
+        "Brie Cheese",
+        "Mozzarella Ball",
+        "Ghee",
+        "Swiss Cheese",
+        "Plain Greek Yogurt",
+        "Butter",
+        "White Chocolate Chips",
+        "Cottage Cheese",
+        "Cheddar Cheese",
+        "Ricotta Cheese",
+        "Plain Kefir",
+        "Plain Sheep's Milk Yogurt",
+        "Havarti Cheese",
+        "Halloumi",
+        "Pecorino Romano Cheese",
+        "Mozzarella Cheese",
+        "Tzatziki",
+        "Buttermilk",
+        "Cream Cheese, Regular",
+        "Blue Cheese",
+        "Provolone Cheese",
+        "Paneer Cheese",
+        "Paneer Masala",
+        "Cow's Milk, Reduced Fat",
+        "Egg Noodles",
+        "Gruyere Cheese",
+        "Beef Tortellini",
+        "Plain Cow's Yogurt, Whole Milk",
+        "Sweetened Condensed Milk, Low Fat",
+        "Phyllo Dough",
+        "Cauliflower Pizza Crust",
+        "Cheese Tortellini",
+        "Digestive Biscuit",
+        "Cheese Curds",
+        "Whipping Cream",
+        "Cow's Milk, Whole",
+        "Wonton Wrapper",
+        "String Cheese",
+        "Puff Pastry",
+        "Plain Goat Milk Yogurt",
+        "Cheese Ravioli",
+        "Caesar Dressing",
+        "Ranch Dressing",
+        "Sour Cream",
+        "Cotija Cheese",
+        "Labneh",
+        "Whipped Cream",
+        "Prepared Pie Crust",
+        "Croissant",
+        "Chocolate Milk, Low Fat",
+        "Milk Chocolate Chips",
+        "Burrata",
+        "Plain Skyr",
+        "Gingersnap Cookies",
+        "Beef Ravioli",
+        "Toothpicks",
+        "Tart Shells",
+        "Mascarpone Cheese",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "type": "allergen",
+      "searchTerms": [
+        "egg",
+        "eggs"
+      ],
+      "csvColumn": "eggfree",
+      "members": [
+        "Egg",
+        "Mayonnaise",
+        "Egg Whites",
+        "Lasagna Sheets",
+        "Egg Noodles",
+        "Beef Tortellini",
+        "Phyllo Dough",
+        "Egg Yolk",
+        "Cauliflower Pizza Crust",
+        "Cheese Tortellini",
+        "Potato Gnocchi",
+        "Frozen Meatballs",
+        "Wonton Wrapper",
+        "Tartar Sauce",
+        "Soy Milk",
+        "Brown Rice Lasagna Sheets",
+        "Cheese Ravioli",
+        "Caesar Dressing",
+        "Ranch Dressing",
+        "Passata",
+        "Beef Ravioli",
+        "Toothpicks",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "type": "allergen",
+      "searchTerms": [
+        "wheat",
+        "flour"
+      ],
+      "csvColumn": "wheatfree",
+      "members": [
+        "Bread",
+        "Rye Bread",
+        "Whole Grain Crackers",
+        "Whole Wheat Tortilla",
+        "Bread Crumbs",
+        "Whole Wheat Penne",
+        "Whole Grain Bread",
+        "Whole Wheat Flatbread",
+        "Udon Noodles",
+        "Spelt Flour",
+        "Orzo",
+        "Couscous",
+        "Light Rye Crisp Bread",
+        "Whole Wheat Pita",
+        "Farro",
+        "Freekeh",
+        "Whole Wheat Hot Dog Bun",
+        "Sourdough Bread",
+        "White Pita Bread",
+        "Rigatoni",
+        "English Muffin",
+        "Whole Wheat Linguine",
+        "Pretzels",
+        "Whole Wheat Bun",
+        "Unbleached All Purpose Flour",
+        "Hoisin Sauce",
+        "Chow Mein Noodles",
+        "Lasagna Sheets",
+        "Seitan",
+        "White Hamburger Slider Buns",
+        "Egg Noodles",
+        "Soy Sauce",
+        "Whole Wheat Flour",
+        "Textured Vegetable Protein",
+        "Phyllo Dough",
+        "Cheese Tortellini",
+        "Digestive Biscuit",
+        "Mini Whole Wheat Pita",
+        "Israeli Couscous",
+        "Potato Gnocchi",
+        "Frozen Meatballs",
+        "Sourdough Baguette",
+        "Wonton Wrapper",
+        "Whole Wheat Spaghetti",
+        "Cannelloni Shells",
+        "Pizza Dough",
+        "Puff Pastry",
+        "Soy Sauce, Low Sodium",
+        "Jumbo Pasta Shells",
+        "Bagel",
+        "Whole Wheat Bagel",
+        "Spelt Tortilla",
+        "White Bread",
+        "Semolina",
+        "Farfalle",
+        "Macaroni",
+        "Linguine",
+        "Pita Chips",
+        "Teriyaki Sauce",
+        "Cheese Ravioli",
+        "Dumpling Wrappers",
+        "Matzo",
+        "Matzo Meal",
+        "Submarine Bun",
+        "Graham Crackers",
+        "Whole Wheat Rotini Pasta",
+        "Prepared Pie Crust",
+        "Pappardelle Pasta",
+        "Croissant",
+        "Focaccia",
+        "Wasabi Peas",
+        "Bulgur",
+        "Panko Bread Crumbs",
+        "Lo Mein Noodles",
+        "Gingersnap Cookies",
+        "Beef Ravioli",
+        "Cavatappi Pasta",
+        "Toothpicks",
+        "Sesame Ginger Dressing",
+        "Tart Shells",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "gluten",
+      "name": "Gluten",
+      "type": "allergen",
+      "searchTerms": [
+        "gluten",
+        "gluten-free"
+      ],
+      "csvColumn": "glutenfree",
+      "members": [
+        "Bread",
+        "Rye Bread",
+        "Whole Grain Crackers",
+        "Whole Wheat Tortilla",
+        "Bread Crumbs",
+        "Whole Wheat Penne",
+        "Whole Grain Bread",
+        "Whole Wheat Flatbread",
+        "Udon Noodles",
+        "Spelt Flour",
+        "Orzo",
+        "Couscous",
+        "Pearl Barley",
+        "Light Rye Crisp Bread",
+        "Whole Wheat Pita",
+        "Farro",
+        "Freekeh",
+        "Whole Wheat Hot Dog Bun",
+        "Sourdough Bread",
+        "White Pita Bread",
+        "Rigatoni",
+        "English Muffin",
+        "Whole Wheat Linguine",
+        "Pretzels",
+        "Whole Wheat Bun",
+        "Unbleached All Purpose Flour",
+        "Hoisin Sauce",
+        "Chow Mein Noodles",
+        "Muesli",
+        "Lasagna Sheets",
+        "Seitan",
+        "Gochujang",
+        "White Hamburger Slider Buns",
+        "Egg Noodles",
+        "Beef Tortellini",
+        "Soy Sauce",
+        "Whole Wheat Flour",
+        "Textured Vegetable Protein",
+        "Phyllo Dough",
+        "Cheese Tortellini",
+        "Digestive Biscuit",
+        "Mini Whole Wheat Pita",
+        "Israeli Couscous",
+        "Naan",
+        "Potato Gnocchi",
+        "Frozen Meatballs",
+        "Sourdough Baguette",
+        "Wonton Wrapper",
+        "Whole Wheat Spaghetti",
+        "Peanut Sauce",
+        "Vegan Caesar Dressing",
+        "Cannelloni Shells",
+        "Pizza Dough",
+        "Puff Pastry",
+        "Soy Sauce, Low Sodium",
+        "Jumbo Pasta Shells",
+        "Bagel",
+        "Whole Wheat Bagel",
+        "Spelt Tortilla",
+        "White Bread",
+        "Semolina",
+        "Farfalle",
+        "Macaroni",
+        "Linguine",
+        "Pita Chips",
+        "Teriyaki Sauce",
+        "Cheese Ravioli",
+        "Dumpling Wrappers",
+        "Matzo",
+        "Matzo Meal",
+        "Submarine Bun",
+        "Graham Crackers",
+        "Whole Wheat Rotini Pasta",
+        "Prepared Pie Crust",
+        "Pappardelle Pasta",
+        "Croissant",
+        "Focaccia",
+        "Wasabi Peas",
+        "Bulgur",
+        "Panko Bread Crumbs",
+        "Lo Mein Noodles",
+        "Gingersnap Cookies",
+        "Beef Ravioli",
+        "Cavatappi Pasta",
+        "Toothpicks",
+        "Sesame Ginger Dressing",
+        "Tart Shells",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "soy",
+      "name": "Soy",
+      "type": "allergen",
+      "searchTerms": [
+        "soy",
+        "soya",
+        "tofu",
+        "edamame"
+      ],
+      "csvColumn": "soyfree",
+      "members": [
+        "Tamari",
+        "Frozen Edamame",
+        "Tofu",
+        "Tempeh",
+        "Miso Paste",
+        "Vegan Mayonnaise",
+        "Edamame Pods",
+        "Hoisin Sauce",
+        "Gochujang",
+        "Soy Sauce",
+        "Textured Vegetable Protein",
+        "Peanut Sauce",
+        "Vegan Caesar Dressing",
+        "Soy Milk",
+        "Silken Tofu",
+        "Soy Sauce, Low Sodium",
+        "Teriyaki Sauce",
+        "Gingersnap Cookies",
+        "Vegetable Oil",
+        "Toothpicks",
+        "Sesame Ginger Dressing"
+      ]
+    },
+    {
+      "id": "corn",
+      "name": "Corn",
+      "type": "food-family",
+      "searchTerms": [
+        "corn",
+        "maize",
+        "cornmeal"
+      ],
+      "csvColumn": "cornfree",
+      "members": [
+        "Popcorn Kernels",
+        "Popcorn",
+        "Frozen Corn",
+        "Corn on the Cob",
+        "Corn",
+        "Corn Tortilla",
+        "Cornmeal",
+        "Corn Tortilla Chips",
+        "Old Fashioned Grits",
+        "Hoisin Sauce",
+        "Paneer Masala",
+        "Frozen Vegetable Mix",
+        "Vegan Cheese Shreds",
+        "Cornstarch",
+        "Hominy",
+        "Corn Flour",
+        "Blueberry Jam",
+        "Teriyaki Sauce",
+        "Dumpling Wrappers",
+        "Sweet Chili Sauce",
+        "Marshmallows",
+        "Creamed Corn",
+        "Hard Taco Shell",
+        "Sweet & Sour Sauce",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "type": "food-family",
+      "searchTerms": [
+        "rice"
+      ],
+      "csvColumn": "ricefree",
+      "members": [
+        "Brown Rice Tortilla",
+        "Brown Rice Spaghetti",
+        "Brown Rice Penne",
+        "Brown Rice Fusilli",
+        "Brown Rice",
+        "Brown Rice Macaroni",
+        "Brown Rice Vermicelli Noodles",
+        "Rice Paper Wraps",
+        "Rice Puffs Cereal",
+        "Brown Rice Flour",
+        "Jasmine Rice",
+        "All Purpose Gluten-Free Flour",
+        "Plain Rice Cake",
+        "Rice Vinegar",
+        "Miso Paste",
+        "Pho Noodles",
+        "Brown Rice Cake",
+        "Wild Rice",
+        "Basmati Rice",
+        "Gluten-Free Bread",
+        "Seed Crackers",
+        "Brown Basmati Rice",
+        "Black Rice",
+        "Chinese Cooking Wine",
+        "Brown Rice Pasta Shells",
+        "Unsweetened Rice Milk",
+        "Gluten-Free Ramen Noodles",
+        "Arborio Rice",
+        "Calrose Rice",
+        "Rice Crackers",
+        "Brown Rice Fettuccine",
+        "Brown Rice Fusilli, Cooked",
+        "White Glutinous Rice",
+        "Gluten-Free Bagel",
+        "Gluten-Free Waffle",
+        "Rice Vermicelli Noodles",
+        "Salmon Burger Patty",
+        "Basmati Rice, Cooked",
+        "Brown Rice Lasagna Sheets",
+        "Gluten-Free Bread Crumbs",
+        "Pickled Turnip",
+        "Toothpicks",
+        "Sesame Ginger Dressing"
+      ]
+    },
+    {
+      "id": "oats",
+      "name": "Oats",
+      "type": "food-family",
+      "searchTerms": [
+        "oat",
+        "oats",
+        "oatmeal"
+      ],
+      "csvColumn": "oatfree",
+      "members": [
+        "Oats",
+        "Steel Cut Oats",
+        "Oat Flour",
+        "Granola",
+        "Oat Crackers",
+        "Quick Oats",
+        "Oat Milk",
+        "Oat Bran",
+        "Muesli",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "type": "allergen",
+      "searchTerms": [
+        "fish",
+        "salmon",
+        "tuna",
+        "tilapia"
+      ],
+      "csvColumn": "seafoodfree",
+      "members": [
+        "Salmon Fillet",
+        "Shrimp",
+        "Tilapia Fillet",
+        "Tuna",
+        "Halibut Fillet",
+        "Cod Fillet",
+        "Haddock Fillet",
+        "Rainbow Trout Fillet",
+        "Smoked Salmon",
+        "Tuna Steak",
+        "Canned Wild Salmon",
+        "Sole Fillet",
+        "Collagen Powder",
+        "Sardines",
+        "Fish Sauce",
+        "Smoked Herring Fillet",
+        "Scallops",
+        "Mackerel Fillet",
+        "Ahi Tuna",
+        "Mussels",
+        "Anchovy",
+        "Shrimp, Cooked",
+        "Monkfish Fillet",
+        "Sea Bass Fillet",
+        "Canned Mackerel",
+        "Calamari",
+        "Fresh Lump Crab Meat, Cooked",
+        "Snow Pea Shoots",
+        "Salmon Burger Patty",
+        "Oyster Sauce",
+        "Worcestershire Sauce",
+        "Salmon Steak",
+        "Tartar Sauce",
+        "King Mackerel Steak",
+        "Smoked Oysters",
+        "Anchovy Paste",
+        "Canned Clams",
+        "Whole Sea Bass",
+        "Mahi Mahi Fillet",
+        "Pickerel Fillet",
+        "Panang Curry Paste",
+        "Clams",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "legumes",
+      "name": "Legumes",
+      "type": "food-family",
+      "searchTerms": [
+        "legume",
+        "legumes",
+        "bean",
+        "beans",
+        "lentil",
+        "lentils",
+        "chickpea"
+      ],
+      "csvColumn": "legumefree",
+      "members": [
+        "All Natural Peanut Butter",
+        "Green Beans",
+        "Tamari",
+        "Frozen Peas",
+        "Black Beans",
+        "Chickpeas",
+        "Green Lentils",
+        "White Navy Beans",
+        "Snap Peas",
+        "Red Kidney Beans",
+        "Hummus",
+        "Frozen Edamame",
+        "Fresh Peas",
+        "Raw Peanuts",
+        "Alfalfa Sprouts",
+        "Dry Red Lentils",
+        "Lentils",
+        "Refried Beans",
+        "Frozen Green Beans",
+        "Tofu",
+        "Yellow Split Peas",
+        "Bean Sprouts",
+        "Mixed Beans",
+        "Chickpea Flour",
+        "Tempeh",
+        "Chickpea Pasta",
+        "Miso Paste",
+        "Dry Black Beans",
+        "Dry Lentils",
+        "Lentil Macaroni",
+        "Vegan Mayonnaise",
+        "Dry Chickpeas",
+        "Fava Beans",
+        "Black Eyed Peas",
+        "Cannellini Beans",
+        "Dry Green Lentils",
+        "Dry Yellow Lentils",
+        "Snow Peas",
+        "Dry Black Eyed Peas",
+        "Edamame Pods",
+        "Lima Beans",
+        "Hoisin Sauce",
+        "Gochujang",
+        "Soy Sauce",
+        "Textured Vegetable Protein",
+        "Vegan Cheese Shreds",
+        "Peanut Sauce",
+        "Vegan Caesar Dressing",
+        "Yellow Beans",
+        "Soy Milk",
+        "Silken Tofu",
+        "Soy Sauce, Low Sodium",
+        "Dried Green Peas",
+        "Frozen Falafel",
+        "Teriyaki Sauce",
+        "Frozen Broad Beans",
+        "Pinto Beans",
+        "Dry White Navy Beans",
+        "Balsamic Glaze",
+        "Panang Curry Paste",
+        "Wasabi Peas",
+        "Toothpicks",
+        "Sesame Ginger Dressing",
+        "Mung Beans"
+      ]
+    },
+    {
+      "id": "mushrooms",
+      "name": "Mushrooms",
+      "type": "food-family",
+      "searchTerms": [
+        "mushroom",
+        "mushrooms",
+        "fungi"
+      ],
+      "csvColumn": "mushroomfree",
+      "members": [
+        "Portobello Mushroom",
+        "Mushrooms",
+        "Portobello Mushroom Caps",
+        "Shiitake Mushrooms",
+        "White Button Mushrooms",
+        "Cremini Mushrooms",
+        "Oyster Mushrooms",
+        "Reishi Powder",
+        "Lion's Mane Powder",
+        "Toothpicks",
+        "Mascarpone Cheese"
+      ]
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut",
+      "type": "food-family",
+      "searchTerms": [
+        "coconut"
+      ],
+      "csvColumn": "coconutfree",
+      "members": [
+        "Unsweetened Coconut Flakes",
+        "Coconut Flour",
+        "Coconut Oil",
+        "Canned Coconut Milk",
+        "Coconut Ice Cream",
+        "Grain-Free Flax Bread",
+        "Coconut Aminos",
+        "Unsweetened Shredded Coconut",
+        "Coconut Sugar",
+        "Unsweetened Coconut Yogurt",
+        "Coconut Butter",
+        "Lite Coconut Milk",
+        "Plain Coconut Milk",
+        "Coconut Whipped Cream",
+        "Coconut Meat",
+        "Coconut Water",
+        "Coconut Cream",
+        "Pickled Turnip",
+        "Plain Coconut Kefir",
+        "Plain Coconut Kefir Yogurt",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "Beef",
+      "type": "food-family",
+      "searchTerms": [
+        "beef",
+        "steak"
+      ],
+      "csvColumn": "beeffree",
+      "members": [
+        "Beef Tenderloin",
+        "Top Sirloin Beef Roast",
+        "Gelatin",
+        "NY Striploin Steak",
+        "Extra Lean Ground Beef",
+        "Stewing Beef",
+        "Beef Broth",
+        "Beef Brisket",
+        "Top Sirloin Steak",
+        "Beef Liver",
+        "Collagen Powder",
+        "Deli Roast Beef",
+        "Bone Broth",
+        "Flank Steak",
+        "Cajun Smoked Andouille Sausage",
+        "Flat Iron Steak",
+        "Oxtail",
+        "Beef Heart",
+        "Ribeye Steak, Bone-in",
+        "Skirt Steak",
+        "Beef Bones",
+        "Lean Ground Beef",
+        "Strip Loin Roast",
+        "Beef Shanks",
+        "Snow Pea Shoots",
+        "Beef Tortellini",
+        "Lean Beef Patty",
+        "Ribeye Steak, Boneless",
+        "Pepperoni",
+        "Salami, Mild",
+        "Frozen Meatballs",
+        "Veal Shank, Bone-in",
+        "Chuck Roast",
+        "Marshmallows",
+        "Beef Jerky",
+        "Corned Beef",
+        "Prime Rib, Bone-In",
+        "Beef Short Ribs, Bone-In",
+        "Beef Ravioli",
+        "Toothpicks",
+        "Beef Stick",
+        "Veal Leg Cutlet"
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "Pork",
+      "type": "food-family",
+      "searchTerms": [
+        "pork",
+        "bacon",
+        "ham"
+      ],
+      "csvColumn": "porkfree",
+      "members": [
+        "Bacon",
+        "Prosciutto",
+        "Pork Tenderloin",
+        "Pork Ribs",
+        "Lean Ground Pork",
+        "Pork Chop",
+        "Pork Sausage",
+        "Pork Hock",
+        "Pork Belly",
+        "Chorizo",
+        "Bacon, Cooked",
+        "Pork Loin Roast",
+        "Cajun Smoked Andouille Sausage",
+        "Pork Shoulder, Boneless",
+        "Sliced Ham",
+        "Ham, Bone-in",
+        "Pepperoni",
+        "Salami, Mild",
+        "Frozen Meatballs",
+        "Pancetta",
+        "Mortadella",
+        "Beef Ravioli",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "poultry",
+      "name": "Poultry",
+      "type": "food-family",
+      "searchTerms": [
+        "poultry",
+        "chicken",
+        "turkey",
+        "duck"
+      ],
+      "csvColumn": "chickenfree",
+      "members": [
+        "Chicken Breast",
+        "Extra Lean Ground Chicken",
+        "Whole Chicken Carcass",
+        "Whole Roasting Chicken",
+        "Chicken Thighs",
+        "Chicken Sausage",
+        "Chicken Broth",
+        "Chicken Drumsticks",
+        "Chicken Thighs with Skin",
+        "Whole Rotisserie Chicken",
+        "Chicken Leg, Boneless with Skin",
+        "Chicken Wings",
+        "Chicken Liver",
+        "Chicken Breast, Cooked",
+        "Chicken Leg, Bone-in",
+        "Chicken Heart",
+        "Frozen Blackberries",
+        "Cornish Hen",
+        "Chicken Broth, Low Sodium",
+        "Chicken Hot Dog",
+        "Scotch Bonnet",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "Turkey",
+      "type": "food-family",
+      "searchTerms": [
+        "turkey"
+      ],
+      "csvColumn": "turkeyfree",
+      "members": [
+        "Extra Lean Ground Turkey",
+        "Turkey Breast",
+        "Sliced Turkey Breast",
+        "Turkey Thigh",
+        "Turkey Sausage",
+        "Turkey Breast, Cooked",
+        "Turkey Breast, Skin on",
+        "Turkey Bacon",
+        "Turkey Thigh, Bone-in",
+        "Toothpicks",
+        "Mung Beans",
+        "Turkey Stick"
+      ]
+    },
+    {
+      "id": "tomatoes",
+      "name": "Tomatoes",
+      "type": "food-family",
+      "searchTerms": [
+        "tomato",
+        "tomatoes"
+      ],
+      "csvColumn": "tomatofree",
+      "members": [
+        "Cherry Tomatoes",
+        "Tomato",
+        "Vegetable Broth",
+        "Salsa",
+        "Diced Tomatoes",
+        "Crushed Tomatoes",
+        "Sun Dried Tomatoes",
+        "Tomato Paste",
+        "Canned Whole Tomatoes",
+        "Barbecue Sauce",
+        "Tomato Sauce",
+        "Sugar Free Ketchup",
+        "Fire Roasted Diced Tomatoes",
+        "Harissa",
+        "Tomato Juice",
+        "Green Tomato",
+        "Pickled Green Tomato",
+        "Jerk Marinade",
+        "Tikka Masala Paste",
+        "Enchilada Sauce",
+        "Vegetable Broth, Low Sodium",
+        "Marinara Sauce",
+        "Tomato Purée",
+        "Tomatillo",
+        "Pizza Sauce",
+        "Sun Dried Tomato Pesto",
+        "Salsa Verde",
+        "Passata",
+        "Sweet & Sour Sauce",
+        "Toothpicks"
+      ]
+    },
+    {
+      "id": "onions",
+      "name": "Onions",
+      "type": "food-family",
+      "searchTerms": [
+        "onion",
+        "onions"
+      ],
+      "csvColumn": "onionfree",
+      "members": [
+        "Yellow Onion",
+        "Red Onion",
+        "Sweet Onion",
+        "Green Onion",
+        "Vegetable Broth",
+        "Salsa",
+        "White Onion",
+        "Onion Powder",
+        "French Shallot",
+        "Chicken Sausage",
+        "Chicken Broth",
+        "Refried Beans",
+        "Chives",
+        "Barbecue Sauce",
+        "Cajun Spice",
+        "Beef Broth",
+        "Dried Onion Flakes",
+        "Thai Red Curry Paste",
+        "Shallot",
+        "Hot Sauce",
+        "Yellow Curry Paste",
+        "Lamb Sausage",
+        "Tomato Sauce",
+        "Pork Sausage",
+        "Turkey Sausage",
+        "Chorizo",
+        "Relish",
+        "Bone Broth",
+        "Harissa",
+        "Everything Bagel Seasoning",
+        "Cajun Seasoning",
+        "Cajun Smoked Andouille Sausage",
+        "Jerk Seasoning",
+        "Tzatziki",
+        "Jerk Marinade",
+        "Creole Seasoning",
+        "Green Curry Paste",
+        "Taco Seasoning",
+        "Tikka Masala Paste",
+        "Hoisin Sauce",
+        "Paneer Masala",
+        "Berbere Spice",
+        "Enchilada Sauce",
+        "Vegetable Broth, Low Sodium",
+        "Chana Masala Spice Blend",
+        "Peri Peri Spice",
+        "Pickled Red Onions",
+        "Marinara Sauce",
+        "Vegan Ranch Dressing",
+        "Tandoori Masala",
+        "Veggie Burger Patty",
+        "Italian Dressing",
+        "Green Goddess Salad Dressing",
+        "Guacamole",
+        "Chicken Broth, Low Sodium",
+        "Frozen Meatballs",
+        "Worcestershire Sauce",
+        "Tartar Sauce",
+        "Callaloo",
+        "Pizza Sauce",
+        "Steak Spice Seasoning",
+        "Teriyaki Sauce",
+        "Ranch Dressing",
+        "Salsa Verde",
+        "Fajita Seasoning",
+        "Toothpicks",
+        "Frozen Pierogies"
+      ]
+    },
+    {
+      "id": "high-salicylate",
+      "name": "High Salicylate",
+      "type": "compound",
+      "searchTerms": [
+        "salicylate",
+        "salicylates",
+        "aspirin sensitivity"
+      ],
+      "members": [
+        "Blueberries",
+        "Strawberries",
+        "Raspberries",
+        "Blackberries",
+        "Navel Orange",
+        "Grapefruit",
+        "Apple",
+        "Grapes",
+        "Peach",
+        "Tomato",
+        "Cherry Tomatoes",
+        "Yellow Bell Pepper",
+        "Red Bell Pepper",
+        "Green Bell Pepper",
+        "Cucumber",
+        "Zucchini",
+        "Eggplant",
+        "Radishes",
+        "Spinach",
+        "Baby Spinach",
+        "Almonds",
+        "Slivered Almonds",
+        "Almond Flour",
+        "Almond Butter",
+        "Pine Nuts",
+        "Sunflower Seeds",
+        "Basil Leaves",
+        "Thyme",
+        "Thyme Sprigs",
+        "Mint Leaves",
+        "Curry Powder",
+        "Cayenne Pepper",
+        "Paprika",
+        "Cumin"
+      ]
+    },
+    {
+      "id": "high-oxalate",
+      "name": "High Oxalate",
+      "type": "compound",
+      "searchTerms": [
+        "oxalate",
+        "oxalates",
+        "kidney stone"
+      ],
+      "members": [
+        "Baby Spinach",
+        "Collard Greens",
+        "Kale Leaves",
+        "Beet",
+        "Sweet Potato",
+        "Rhubarb",
+        "Almonds",
+        "Slivered Almonds",
+        "Almond Flour",
+        "Almond Butter",
+        "Cashews",
+        "Pecans",
+        "Peanuts",
+        "All Natural Peanut Butter",
+        "Sesame Seeds",
+        "Chia Seeds"
+      ]
+    },
+    {
+      "id": "high-histamine",
+      "name": "High Histamine",
+      "type": "compound",
+      "searchTerms": [
+        "histamine",
+        "histamines",
+        "fermented"
+      ],
+      "members": [
+        "Feta Cheese",
+        "Tomato",
+        "Cherry Tomatoes",
+        "Eggplant",
+        "Baby Spinach",
+        "Avocado",
+        "Lemon",
+        "Lime",
+        "Navel Orange",
+        "Grapefruit",
+        "Salmon Fillet",
+        "Tilapia Fillet",
+        "Shrimp",
+        "Cashews",
+        "Walnuts"
+      ]
+    },
+    {
+      "id": "high-fodmap",
+      "name": "High FODMAP",
+      "type": "compound",
+      "searchTerms": [
+        "fodmap",
+        "fodmaps",
+        "ibs",
+        "digestive"
+      ],
+      "members": [
+        "Yellow Onion",
+        "Red Onion",
+        "Sweet Onion",
+        "White Onion",
+        "Green Onion",
+        "Garlic",
+        "Garlic Powder",
+        "Leeks",
+        "Shallots",
+        "Apple",
+        "Pear",
+        "Peach",
+        "Watermelon",
+        "Mango",
+        "Chickpeas",
+        "Black Beans",
+        "Kidney Beans",
+        "Lentils",
+        "Cauliflower",
+        "Mushrooms",
+        "Portobello Mushroom",
+        "Asparagus",
+        "Wheat",
+        "Rye",
+        "Cashews",
+        "Pistachios",
+        "Milk",
+        "Yogurt",
+        "Ice Cream"
+      ]
+    },
+    {
+      "id": "high-lectin",
+      "name": "High Lectin",
+      "type": "compound",
+      "searchTerms": [
+        "lectin",
+        "lectins"
+      ],
+      "members": [
+        "Chickpeas",
+        "Black Beans",
+        "Kidney Beans",
+        "Lentils",
+        "Peanuts",
+        "Tomato",
+        "Cherry Tomatoes",
+        "Eggplant",
+        "Yellow Bell Pepper",
+        "Red Bell Pepper",
+        "Green Bell Pepper",
+        "Wheat",
+        "Oats",
+        "Corn",
+        "Rice",
+        "Quinoa",
+        "Zucchini",
+        "Spaghetti Squash",
+        "Butternut Squash"
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Garlic",
+      "groupIds": [
+        "alliums",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "garlic",
+        "garlic"
+      ]
+    },
+    {
+      "name": "Leeks",
+      "groupIds": [
+        "alliums",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "leeks",
+        "leeks"
+      ]
+    },
+    {
+      "name": "Yellow Onion",
+      "groupIds": [
+        "alliums",
+        "onions",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "yellow onion",
+        "yellow",
+        "onion"
+      ]
+    },
+    {
+      "name": "Red Onion",
+      "groupIds": [
+        "alliums",
+        "onions",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "red onion",
+        "red",
+        "onion"
+      ]
+    },
+    {
+      "name": "Sweet Onion",
+      "groupIds": [
+        "alliums",
+        "onions",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "sweet onion",
+        "sweet",
+        "onion"
+      ]
+    },
+    {
+      "name": "Green Onion",
+      "groupIds": [
+        "alliums",
+        "onions",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "green onion",
+        "green",
+        "onion"
+      ]
+    },
+    {
+      "name": "Vegetable Broth",
+      "groupIds": [
+        "alliums",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "vegetable broth",
+        "vegetable",
+        "broth"
+      ]
+    },
+    {
+      "name": "Salsa",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "salsa",
+        "salsa"
+      ]
+    },
+    {
+      "name": "White Onion",
+      "groupIds": [
+        "alliums",
+        "onions",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "white onion",
+        "white",
+        "onion"
+      ]
+    },
+    {
+      "name": "Garlic Powder",
+      "groupIds": [
+        "alliums",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "garlic powder",
+        "garlic",
+        "powder"
+      ]
+    },
+    {
+      "name": "Onion Powder",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "onion powder",
+        "onion",
+        "powder"
+      ]
+    },
+    {
+      "name": "Hummus",
+      "groupIds": [
+        "alliums",
+        "citrus",
+        "legumes"
+      ],
+      "searchTerms": [
+        "hummus",
+        "hummus"
+      ]
+    },
+    {
+      "name": "French Shallot",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "french shallot",
+        "french",
+        "shallot"
+      ]
+    },
+    {
+      "name": "Chicken Sausage",
+      "groupIds": [
+        "alliums",
+        "poultry",
+        "onions"
+      ],
+      "searchTerms": [
+        "chicken sausage",
+        "chicken",
+        "sausage"
+      ]
+    },
+    {
+      "name": "Chicken Broth",
+      "groupIds": [
+        "alliums",
+        "poultry",
+        "onions"
+      ],
+      "searchTerms": [
+        "chicken broth",
+        "chicken",
+        "broth"
+      ]
+    },
+    {
+      "name": "Refried Beans",
+      "groupIds": [
+        "alliums",
+        "legumes",
+        "onions"
+      ],
+      "searchTerms": [
+        "refried beans",
+        "refried",
+        "beans"
+      ]
+    },
+    {
+      "name": "Chives",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "chives",
+        "chives"
+      ]
+    },
+    {
+      "name": "Barbecue Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "barbecue sauce",
+        "barbecue",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Cajun Spice",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "cajun spice",
+        "cajun",
+        "spice"
+      ]
+    },
+    {
+      "name": "Beef Broth",
+      "groupIds": [
+        "alliums",
+        "beef",
+        "onions"
+      ],
+      "searchTerms": [
+        "beef broth",
+        "beef",
+        "broth"
+      ]
+    },
+    {
+      "name": "Greek Seasoning",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "greek seasoning",
+        "greek",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Dried Onion Flakes",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "dried onion flakes",
+        "dried",
+        "onion",
+        "flakes"
+      ]
+    },
+    {
+      "name": "Thai Red Curry Paste",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "thai red curry paste",
+        "thai",
+        "red",
+        "curry",
+        "paste"
+      ]
+    },
+    {
+      "name": "Pesto",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "pesto",
+        "pesto"
+      ]
+    },
+    {
+      "name": "Shallot",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "shallot",
+        "shallot"
+      ]
+    },
+    {
+      "name": "Hot Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "hot sauce",
+        "hot",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Yellow Curry Paste",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "yellow curry paste",
+        "yellow",
+        "curry",
+        "paste"
+      ]
+    },
+    {
+      "name": "Lamb Sausage",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "lamb sausage",
+        "lamb",
+        "sausage"
+      ]
+    },
+    {
+      "name": "Tomato Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "tomato sauce",
+        "tomato",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Pork Sausage",
+      "groupIds": [
+        "alliums",
+        "pork",
+        "onions"
+      ],
+      "searchTerms": [
+        "pork sausage",
+        "pork",
+        "sausage"
+      ]
+    },
+    {
+      "name": "Dried Chives",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "dried chives",
+        "dried",
+        "chives"
+      ]
+    },
+    {
+      "name": "Turkey Sausage",
+      "groupIds": [
+        "alliums",
+        "turkey",
+        "onions"
+      ],
+      "searchTerms": [
+        "turkey sausage",
+        "turkey",
+        "sausage"
+      ]
+    },
+    {
+      "name": "Chorizo",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "pork",
+        "onions"
+      ],
+      "searchTerms": [
+        "chorizo",
+        "chorizo"
+      ]
+    },
+    {
+      "name": "Relish",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "relish",
+        "relish"
+      ]
+    },
+    {
+      "name": "Bone Broth",
+      "groupIds": [
+        "alliums",
+        "beef",
+        "onions"
+      ],
+      "searchTerms": [
+        "bone broth",
+        "bone",
+        "broth"
+      ]
+    },
+    {
+      "name": "Sriracha",
+      "groupIds": [
+        "alliums",
+        "nightshades"
+      ],
+      "searchTerms": [
+        "sriracha",
+        "sriracha"
+      ]
+    },
+    {
+      "name": "Harissa",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "harissa",
+        "harissa"
+      ]
+    },
+    {
+      "name": "Everything Bagel Seasoning",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "everything bagel seasoning",
+        "everything",
+        "bagel",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Cajun Seasoning",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "cajun seasoning",
+        "cajun",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Cajun Smoked Andouille Sausage",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "beef",
+        "pork",
+        "onions"
+      ],
+      "searchTerms": [
+        "cajun smoked andouille sausage",
+        "cajun",
+        "smoked",
+        "andouille",
+        "sausage"
+      ]
+    },
+    {
+      "name": "Jerk Seasoning",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "jerk seasoning",
+        "jerk",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Tzatziki",
+      "groupIds": [
+        "alliums",
+        "citrus",
+        "dairy",
+        "onions"
+      ],
+      "searchTerms": [
+        "tzatziki",
+        "tzatziki"
+      ]
+    },
+    {
+      "name": "Baba Ganoush",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus"
+      ],
+      "searchTerms": [
+        "baba ganoush",
+        "baba",
+        "ganoush"
+      ]
+    },
+    {
+      "name": "Jerk Marinade",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "jerk marinade",
+        "jerk",
+        "marinade"
+      ]
+    },
+    {
+      "name": "Creole Seasoning",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "creole seasoning",
+        "creole",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Green Curry Paste",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "green curry paste",
+        "green",
+        "curry",
+        "paste"
+      ]
+    },
+    {
+      "name": "Taco Seasoning",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "taco seasoning",
+        "taco",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Tikka Masala Paste",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "tikka masala paste",
+        "tikka",
+        "masala",
+        "paste"
+      ]
+    },
+    {
+      "name": "Hoisin Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "wheat",
+        "gluten",
+        "soy",
+        "corn",
+        "legumes",
+        "onions"
+      ],
+      "searchTerms": [
+        "hoisin sauce",
+        "hoisin",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Paneer Masala",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tree-nuts",
+        "dairy",
+        "corn",
+        "onions"
+      ],
+      "searchTerms": [
+        "paneer masala",
+        "paneer",
+        "masala"
+      ]
+    },
+    {
+      "name": "Berbere Spice",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "berbere spice",
+        "berbere",
+        "spice"
+      ]
+    },
+    {
+      "name": "Enchilada Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "enchilada sauce",
+        "enchilada",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Vegetable Broth, Low Sodium",
+      "groupIds": [
+        "alliums",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "vegetable broth, low sodium",
+        "vegetable",
+        "broth,",
+        "low",
+        "sodium"
+      ]
+    },
+    {
+      "name": "Chana Masala Spice Blend",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "chana masala spice blend",
+        "chana",
+        "masala",
+        "spice",
+        "blend"
+      ]
+    },
+    {
+      "name": "Peri Peri Spice",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "peri peri spice",
+        "peri",
+        "peri",
+        "spice"
+      ]
+    },
+    {
+      "name": "Pickled Red Onions",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "pickled red onions",
+        "pickled",
+        "red",
+        "onions"
+      ]
+    },
+    {
+      "name": "Marinara Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "marinara sauce",
+        "marinara",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Vegan Ranch Dressing",
+      "groupIds": [
+        "alliums",
+        "citrus",
+        "tree-nuts",
+        "onions"
+      ],
+      "searchTerms": [
+        "vegan ranch dressing",
+        "vegan",
+        "ranch",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Tandoori Masala",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "tandoori masala",
+        "tandoori",
+        "masala"
+      ]
+    },
+    {
+      "name": "Veggie Burger Patty",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "veggie burger patty",
+        "veggie",
+        "burger",
+        "patty"
+      ]
+    },
+    {
+      "name": "Italian Dressing",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "onions"
+      ],
+      "searchTerms": [
+        "italian dressing",
+        "italian",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Green Goddess Salad Dressing",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "green goddess salad dressing",
+        "green",
+        "goddess",
+        "salad",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Guacamole",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "onions"
+      ],
+      "searchTerms": [
+        "guacamole",
+        "guacamole"
+      ]
+    },
+    {
+      "name": "Chicken Broth, Low Sodium",
+      "groupIds": [
+        "alliums",
+        "poultry",
+        "onions"
+      ],
+      "searchTerms": [
+        "chicken broth, low sodium",
+        "chicken",
+        "broth,",
+        "low",
+        "sodium"
+      ]
+    },
+    {
+      "name": "Frozen Meatballs",
+      "groupIds": [
+        "alliums",
+        "eggs",
+        "wheat",
+        "gluten",
+        "beef",
+        "pork",
+        "onions"
+      ],
+      "searchTerms": [
+        "frozen meatballs",
+        "frozen",
+        "meatballs"
+      ]
+    },
+    {
+      "name": "Garlic Scapes",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "garlic scapes",
+        "garlic",
+        "scapes"
+      ]
+    },
+    {
+      "name": "Worcestershire Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "fish",
+        "onions"
+      ],
+      "searchTerms": [
+        "worcestershire sauce",
+        "worcestershire",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Cilantro Lime Dressing",
+      "groupIds": [
+        "alliums",
+        "citrus"
+      ],
+      "searchTerms": [
+        "cilantro lime dressing",
+        "cilantro",
+        "lime",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Vegan Caesar Dressing",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "gluten",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "vegan caesar dressing",
+        "vegan",
+        "caesar",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Tartar Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "eggs",
+        "fish",
+        "onions"
+      ],
+      "searchTerms": [
+        "tartar sauce",
+        "tartar",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Callaloo",
+      "groupIds": [
+        "alliums",
+        "onions"
+      ],
+      "searchTerms": [
+        "callaloo",
+        "callaloo"
+      ]
+    },
+    {
+      "name": "Pizza Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "pizza sauce",
+        "pizza",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Sun Dried Tomato Pesto",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "sun dried tomato pesto",
+        "sun",
+        "dried",
+        "tomato",
+        "pesto"
+      ]
+    },
+    {
+      "name": "Frozen Falafel",
+      "groupIds": [
+        "alliums",
+        "legumes"
+      ],
+      "searchTerms": [
+        "frozen falafel",
+        "frozen",
+        "falafel"
+      ]
+    },
+    {
+      "name": "Mediterranean Spice Blend",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "mediterranean spice blend",
+        "mediterranean",
+        "spice",
+        "blend"
+      ]
+    },
+    {
+      "name": "Steak Spice Seasoning",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "steak spice seasoning",
+        "steak",
+        "spice",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Teriyaki Sauce",
+      "groupIds": [
+        "alliums",
+        "wheat",
+        "gluten",
+        "soy",
+        "corn",
+        "legumes",
+        "onions"
+      ],
+      "searchTerms": [
+        "teriyaki sauce",
+        "teriyaki",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Cheese Ravioli",
+      "groupIds": [
+        "alliums",
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "cheese ravioli",
+        "cheese",
+        "ravioli"
+      ]
+    },
+    {
+      "name": "Venison Sausage",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "venison sausage",
+        "venison",
+        "sausage"
+      ]
+    },
+    {
+      "name": "Caesar Dressing",
+      "groupIds": [
+        "alliums",
+        "citrus",
+        "dairy",
+        "eggs"
+      ],
+      "searchTerms": [
+        "caesar dressing",
+        "caesar",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Ranch Dressing",
+      "groupIds": [
+        "alliums",
+        "citrus",
+        "dairy",
+        "eggs",
+        "onions"
+      ],
+      "searchTerms": [
+        "ranch dressing",
+        "ranch",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Sweet Chili Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "corn"
+      ],
+      "searchTerms": [
+        "sweet chili sauce",
+        "sweet",
+        "chili",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Salsa Verde",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "salsa verde",
+        "salsa",
+        "verde"
+      ]
+    },
+    {
+      "name": "Fajita Seasoning",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "onions"
+      ],
+      "searchTerms": [
+        "fajita seasoning",
+        "fajita",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Beef Ravioli",
+      "groupIds": [
+        "alliums",
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten",
+        "beef",
+        "pork"
+      ],
+      "searchTerms": [
+        "beef ravioli",
+        "beef",
+        "ravioli"
+      ]
+    },
+    {
+      "name": "Adobo Seasoning",
+      "groupIds": [
+        "alliums"
+      ],
+      "searchTerms": [
+        "adobo seasoning",
+        "adobo",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Sweet & Sour Sauce",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "corn",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "sweet & sour sauce",
+        "sweet",
+        "&",
+        "sour",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Toothpicks",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "citrus",
+        "tree-nuts",
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten",
+        "soy",
+        "corn",
+        "rice",
+        "oats",
+        "fish",
+        "legumes",
+        "mushrooms",
+        "coconut",
+        "beef",
+        "pork",
+        "poultry",
+        "turkey",
+        "tomatoes",
+        "onions"
+      ],
+      "searchTerms": [
+        "toothpicks",
+        "toothpicks"
+      ]
+    },
+    {
+      "name": "Sesame Ginger Dressing",
+      "groupIds": [
+        "alliums",
+        "wheat",
+        "gluten",
+        "soy",
+        "rice",
+        "legumes"
+      ],
+      "searchTerms": [
+        "sesame ginger dressing",
+        "sesame",
+        "ginger",
+        "dressing"
+      ]
+    },
+    {
+      "name": "Beef Stick",
+      "groupIds": [
+        "alliums",
+        "beef"
+      ],
+      "searchTerms": [
+        "beef stick",
+        "beef",
+        "stick"
+      ]
+    },
+    {
+      "name": "Turkey Stick",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey stick",
+        "turkey",
+        "stick"
+      ]
+    },
+    {
+      "name": "Frozen Pierogies",
+      "groupIds": [
+        "alliums",
+        "nightshades",
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten",
+        "onions"
+      ],
+      "searchTerms": [
+        "frozen pierogies",
+        "frozen",
+        "pierogies"
+      ]
+    },
+    {
+      "name": "Cherry Tomatoes",
+      "groupIds": [
+        "nightshades",
+        "tomatoes",
+        "high-salicylate",
+        "high-histamine",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "cherry tomatoes",
+        "cherry",
+        "tomatoes"
+      ]
+    },
+    {
+      "name": "Tomato",
+      "groupIds": [
+        "nightshades",
+        "tomatoes",
+        "high-salicylate",
+        "high-histamine",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "tomato",
+        "tomato"
+      ]
+    },
+    {
+      "name": "Yellow Bell Pepper",
+      "groupIds": [
+        "nightshades",
+        "high-salicylate",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "yellow bell pepper",
+        "yellow",
+        "bell",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Red Bell Pepper",
+      "groupIds": [
+        "nightshades",
+        "high-salicylate",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "red bell pepper",
+        "red",
+        "bell",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Green Bell Pepper",
+      "groupIds": [
+        "nightshades",
+        "high-salicylate",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "green bell pepper",
+        "green",
+        "bell",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Jalapeno Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "jalapeno pepper",
+        "jalapeno",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Eggplant",
+      "groupIds": [
+        "nightshades",
+        "high-salicylate",
+        "high-histamine",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "eggplant",
+        "eggplant"
+      ]
+    },
+    {
+      "name": "Cayenne Pepper",
+      "groupIds": [
+        "nightshades",
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "cayenne pepper",
+        "cayenne",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Red Pepper Flakes",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "red pepper flakes",
+        "red",
+        "pepper",
+        "flakes"
+      ]
+    },
+    {
+      "name": "Chili Powder",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "chili powder",
+        "chili",
+        "powder"
+      ]
+    },
+    {
+      "name": "Paprika",
+      "groupIds": [
+        "nightshades",
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "paprika",
+        "paprika"
+      ]
+    },
+    {
+      "name": "Diced Tomatoes",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "diced tomatoes",
+        "diced",
+        "tomatoes"
+      ]
+    },
+    {
+      "name": "Crushed Tomatoes",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "crushed tomatoes",
+        "crushed",
+        "tomatoes"
+      ]
+    },
+    {
+      "name": "Tabasco Sauce",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "tabasco sauce",
+        "tabasco",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Sun Dried Tomatoes",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "sun dried tomatoes",
+        "sun",
+        "dried",
+        "tomatoes"
+      ]
+    },
+    {
+      "name": "Tomato Paste",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "tomato paste",
+        "tomato",
+        "paste"
+      ]
+    },
+    {
+      "name": "Canned Whole Tomatoes",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "canned whole tomatoes",
+        "canned",
+        "whole",
+        "tomatoes"
+      ]
+    },
+    {
+      "name": "Mini Peppers",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "mini peppers",
+        "mini",
+        "peppers"
+      ]
+    },
+    {
+      "name": "Kimchi",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "kimchi",
+        "kimchi"
+      ]
+    },
+    {
+      "name": "Mini Potatoes",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "mini potatoes",
+        "mini",
+        "potatoes"
+      ]
+    },
+    {
+      "name": "Thai Chili",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "thai chili",
+        "thai",
+        "chili"
+      ]
+    },
+    {
+      "name": "Yellow Potato",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "yellow potato",
+        "yellow",
+        "potato"
+      ]
+    },
+    {
+      "name": "Smoked Paprika",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "smoked paprika",
+        "smoked",
+        "paprika"
+      ]
+    },
+    {
+      "name": "Orange Bell Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "orange bell pepper",
+        "orange",
+        "bell",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Red Hot Chili Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "red hot chili pepper",
+        "red",
+        "hot",
+        "chili",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Chinese Five Spice",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "chinese five spice",
+        "chinese",
+        "five",
+        "spice"
+      ]
+    },
+    {
+      "name": "Goji Berries",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "goji berries",
+        "goji",
+        "berries"
+      ]
+    },
+    {
+      "name": "Roasted Red Peppers",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "roasted red peppers",
+        "roasted",
+        "red",
+        "peppers"
+      ]
+    },
+    {
+      "name": "Russet Potato",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "russet potato",
+        "russet",
+        "potato"
+      ]
+    },
+    {
+      "name": "Sugar Free Ketchup",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "sugar free ketchup",
+        "sugar",
+        "free",
+        "ketchup"
+      ]
+    },
+    {
+      "name": "Chili Flakes",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "chili flakes",
+        "chili",
+        "flakes"
+      ]
+    },
+    {
+      "name": "Green Chili Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "green chili pepper",
+        "green",
+        "chili",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Fire Roasted Diced Tomatoes",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "fire roasted diced tomatoes",
+        "fire",
+        "roasted",
+        "diced",
+        "tomatoes"
+      ]
+    },
+    {
+      "name": "Tomato Juice",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "tomato juice",
+        "tomato",
+        "juice"
+      ]
+    },
+    {
+      "name": "Shishito Peppers",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "shishito peppers",
+        "shishito",
+        "peppers"
+      ]
+    },
+    {
+      "name": "Habanero Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "habanero pepper",
+        "habanero",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Green Tomato",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "green tomato",
+        "green",
+        "tomato"
+      ]
+    },
+    {
+      "name": "Pickled Green Tomato",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "pickled green tomato",
+        "pickled",
+        "green",
+        "tomato"
+      ]
+    },
+    {
+      "name": "Wasabi Paste",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "wasabi paste",
+        "wasabi",
+        "paste"
+      ]
+    },
+    {
+      "name": "Persimmon",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "persimmon",
+        "persimmon"
+      ]
+    },
+    {
+      "name": "Biryani Masala",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "biryani masala",
+        "biryani",
+        "masala"
+      ]
+    },
+    {
+      "name": "Madras Curry Powder",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "madras curry powder",
+        "madras",
+        "curry",
+        "powder"
+      ]
+    },
+    {
+      "name": "Pickled Banana Peppers",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "pickled banana peppers",
+        "pickled",
+        "banana",
+        "peppers"
+      ]
+    },
+    {
+      "name": "Old Bay Seasoning",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "old bay seasoning",
+        "old",
+        "bay",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Hot Banana Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "hot banana pepper",
+        "hot",
+        "banana",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Gochujang",
+      "groupIds": [
+        "nightshades",
+        "gluten",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "gochujang",
+        "gochujang"
+      ]
+    },
+    {
+      "name": "Tamarind Paste",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "tamarind paste",
+        "tamarind",
+        "paste"
+      ]
+    },
+    {
+      "name": "Moroccan Spice Blend",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "moroccan spice blend",
+        "moroccan",
+        "spice",
+        "blend"
+      ]
+    },
+    {
+      "name": "Tamarind Flesh",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "tamarind flesh",
+        "tamarind",
+        "flesh"
+      ]
+    },
+    {
+      "name": "Hashbrowns",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "hashbrowns",
+        "hashbrowns"
+      ]
+    },
+    {
+      "name": "Tomato Purée",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "tomato purée",
+        "tomato",
+        "purée"
+      ]
+    },
+    {
+      "name": "Chaat Masala",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "chaat masala",
+        "chaat",
+        "masala"
+      ]
+    },
+    {
+      "name": "Masala Chai Spice",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "masala chai spice",
+        "masala",
+        "chai",
+        "spice"
+      ]
+    },
+    {
+      "name": "Stir Fry Vegetable Mix",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "stir fry vegetable mix",
+        "stir",
+        "fry",
+        "vegetable",
+        "mix"
+      ]
+    },
+    {
+      "name": "Pepperoni",
+      "groupIds": [
+        "nightshades",
+        "beef",
+        "pork"
+      ],
+      "searchTerms": [
+        "pepperoni",
+        "pepperoni"
+      ]
+    },
+    {
+      "name": "Tomatillo",
+      "groupIds": [
+        "nightshades",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "tomatillo",
+        "tomatillo"
+      ]
+    },
+    {
+      "name": "Poblano Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "poblano pepper",
+        "poblano",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Salami, Mild",
+      "groupIds": [
+        "nightshades",
+        "beef",
+        "pork"
+      ],
+      "searchTerms": [
+        "salami, mild",
+        "salami,",
+        "mild"
+      ]
+    },
+    {
+      "name": "Potato Gnocchi",
+      "groupIds": [
+        "nightshades",
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "potato gnocchi",
+        "potato",
+        "gnocchi"
+      ]
+    },
+    {
+      "name": "Frozen French Fries",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "frozen french fries",
+        "frozen",
+        "french",
+        "fries"
+      ]
+    },
+    {
+      "name": "Chicken Hot Dog",
+      "groupIds": [
+        "nightshades",
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken hot dog",
+        "chicken",
+        "hot",
+        "dog"
+      ]
+    },
+    {
+      "name": "Chipotle Powder",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "chipotle powder",
+        "chipotle",
+        "powder"
+      ]
+    },
+    {
+      "name": "Dried Guajillo Chilis",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "dried guajillo chilis",
+        "dried",
+        "guajillo",
+        "chilis"
+      ]
+    },
+    {
+      "name": "Red Potato",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "red potato",
+        "red",
+        "potato"
+      ]
+    },
+    {
+      "name": "Pepperoncini Peppers",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "pepperoncini peppers",
+        "pepperoncini",
+        "peppers"
+      ]
+    },
+    {
+      "name": "Scotch Bonnet",
+      "groupIds": [
+        "nightshades",
+        "poultry"
+      ],
+      "searchTerms": [
+        "scotch bonnet",
+        "scotch",
+        "bonnet"
+      ]
+    },
+    {
+      "name": "Quince",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "quince",
+        "quince"
+      ]
+    },
+    {
+      "name": "Brown Rice Lasagna Sheets",
+      "groupIds": [
+        "nightshades",
+        "eggs",
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice lasagna sheets",
+        "brown",
+        "rice",
+        "lasagna",
+        "sheets"
+      ]
+    },
+    {
+      "name": "Potato Starch",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "potato starch",
+        "potato",
+        "starch"
+      ]
+    },
+    {
+      "name": "Vindaloo Spice Blend",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "vindaloo spice blend",
+        "vindaloo",
+        "spice",
+        "blend"
+      ]
+    },
+    {
+      "name": "Sambal Oelek",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "sambal oelek",
+        "sambal",
+        "oelek"
+      ]
+    },
+    {
+      "name": "Shawarma Spice Blend",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "shawarma spice blend",
+        "shawarma",
+        "spice",
+        "blend"
+      ]
+    },
+    {
+      "name": "Kashmiri Chili Powder",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "kashmiri chili powder",
+        "kashmiri",
+        "chili",
+        "powder"
+      ]
+    },
+    {
+      "name": "Panang Curry Paste",
+      "groupIds": [
+        "nightshades",
+        "tree-nuts",
+        "fish",
+        "legumes"
+      ],
+      "searchTerms": [
+        "panang curry paste",
+        "panang",
+        "curry",
+        "paste"
+      ]
+    },
+    {
+      "name": "Corned Beef",
+      "groupIds": [
+        "nightshades",
+        "beef"
+      ],
+      "searchTerms": [
+        "corned beef",
+        "corned",
+        "beef"
+      ]
+    },
+    {
+      "name": "Muffuletta Salad",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "muffuletta salad",
+        "muffuletta",
+        "salad"
+      ]
+    },
+    {
+      "name": "Pickled Chipotle Peppers",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "pickled chipotle peppers",
+        "pickled",
+        "chipotle",
+        "peppers"
+      ]
+    },
+    {
+      "name": "Wasabi Peas",
+      "groupIds": [
+        "nightshades",
+        "wheat",
+        "gluten",
+        "legumes"
+      ],
+      "searchTerms": [
+        "wasabi peas",
+        "wasabi",
+        "peas"
+      ]
+    },
+    {
+      "name": "Passata",
+      "groupIds": [
+        "nightshades",
+        "eggs",
+        "tomatoes"
+      ],
+      "searchTerms": [
+        "passata",
+        "passata"
+      ]
+    },
+    {
+      "name": "Pickled Jalapeno Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "pickled jalapeno pepper",
+        "pickled",
+        "jalapeno",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Serrano Pepper",
+      "groupIds": [
+        "nightshades"
+      ],
+      "searchTerms": [
+        "serrano pepper",
+        "serrano",
+        "pepper"
+      ]
+    },
+    {
+      "name": "Lemon",
+      "groupIds": [
+        "citrus",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "lemon",
+        "lemon"
+      ]
+    },
+    {
+      "name": "Lime",
+      "groupIds": [
+        "citrus",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "lime",
+        "lime"
+      ]
+    },
+    {
+      "name": "Navel Orange",
+      "groupIds": [
+        "citrus",
+        "high-salicylate",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "navel orange",
+        "navel",
+        "orange"
+      ]
+    },
+    {
+      "name": "Grapefruit",
+      "groupIds": [
+        "citrus",
+        "high-salicylate",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "grapefruit",
+        "grapefruit"
+      ]
+    },
+    {
+      "name": "Clementines",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "clementines",
+        "clementines"
+      ]
+    },
+    {
+      "name": "Lemon Juice",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "lemon juice",
+        "lemon",
+        "juice"
+      ]
+    },
+    {
+      "name": "Orange Juice",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "orange juice",
+        "orange",
+        "juice"
+      ]
+    },
+    {
+      "name": "Lemon Zest",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "lemon zest",
+        "lemon",
+        "zest"
+      ]
+    },
+    {
+      "name": "Grapefruit Juice",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "grapefruit juice",
+        "grapefruit",
+        "juice"
+      ]
+    },
+    {
+      "name": "Lime Juice",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "lime juice",
+        "lime",
+        "juice"
+      ]
+    },
+    {
+      "name": "Blood Orange",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "blood orange",
+        "blood",
+        "orange"
+      ]
+    },
+    {
+      "name": "Orange Zest",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "orange zest",
+        "orange",
+        "zest"
+      ]
+    },
+    {
+      "name": "Pomelo",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "pomelo",
+        "pomelo"
+      ]
+    },
+    {
+      "name": "Sweetened Dried Lemon Peel",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "sweetened dried lemon peel",
+        "sweetened",
+        "dried",
+        "lemon",
+        "peel"
+      ]
+    },
+    {
+      "name": "Lemon Pepper Seasoning",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "lemon pepper seasoning",
+        "lemon",
+        "pepper",
+        "seasoning"
+      ]
+    },
+    {
+      "name": "Orange Extract",
+      "groupIds": [
+        "citrus"
+      ],
+      "searchTerms": [
+        "orange extract",
+        "orange",
+        "extract"
+      ]
+    },
+    {
+      "name": "Almond Flour",
+      "groupIds": [
+        "tree-nuts",
+        "high-salicylate",
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "almond flour",
+        "almond",
+        "flour"
+      ]
+    },
+    {
+      "name": "Almond Butter",
+      "groupIds": [
+        "tree-nuts",
+        "high-salicylate",
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "almond butter",
+        "almond",
+        "butter"
+      ]
+    },
+    {
+      "name": "All Natural Peanut Butter",
+      "groupIds": [
+        "tree-nuts",
+        "legumes",
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "all natural peanut butter",
+        "all",
+        "natural",
+        "peanut",
+        "butter"
+      ]
+    },
+    {
+      "name": "Almonds",
+      "groupIds": [
+        "tree-nuts",
+        "high-salicylate",
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "almonds",
+        "almonds"
+      ]
+    },
+    {
+      "name": "Pecans",
+      "groupIds": [
+        "tree-nuts",
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "pecans",
+        "pecans"
+      ]
+    },
+    {
+      "name": "Cashews",
+      "groupIds": [
+        "tree-nuts",
+        "high-oxalate",
+        "high-histamine",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "cashews",
+        "cashews"
+      ]
+    },
+    {
+      "name": "Pine Nuts",
+      "groupIds": [
+        "tree-nuts",
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "pine nuts",
+        "pine",
+        "nuts"
+      ]
+    },
+    {
+      "name": "Slivered Almonds",
+      "groupIds": [
+        "tree-nuts",
+        "high-salicylate",
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "slivered almonds",
+        "slivered",
+        "almonds"
+      ]
+    },
+    {
+      "name": "Walnuts",
+      "groupIds": [
+        "tree-nuts",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "walnuts",
+        "walnuts"
+      ]
+    },
+    {
+      "name": "Clean Trail Mix",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "clean trail mix",
+        "clean",
+        "trail",
+        "mix"
+      ]
+    },
+    {
+      "name": "Unsweetened Almond Milk",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "unsweetened almond milk",
+        "unsweetened",
+        "almond",
+        "milk"
+      ]
+    },
+    {
+      "name": "Pistachios",
+      "groupIds": [
+        "tree-nuts",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "pistachios",
+        "pistachios"
+      ]
+    },
+    {
+      "name": "Raw Peanuts",
+      "groupIds": [
+        "tree-nuts",
+        "legumes"
+      ],
+      "searchTerms": [
+        "raw peanuts",
+        "raw",
+        "peanuts"
+      ]
+    },
+    {
+      "name": "Macadamia Nut Butter",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "macadamia nut butter",
+        "macadamia",
+        "nut",
+        "butter"
+      ]
+    },
+    {
+      "name": "Brazil Nuts",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "brazil nuts",
+        "brazil",
+        "nuts"
+      ]
+    },
+    {
+      "name": "Macadamia Nuts",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "macadamia nuts",
+        "macadamia",
+        "nuts"
+      ]
+    },
+    {
+      "name": "Sliced Almonds",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "sliced almonds",
+        "sliced",
+        "almonds"
+      ]
+    },
+    {
+      "name": "Hazelnuts",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "hazelnuts",
+        "hazelnuts"
+      ]
+    },
+    {
+      "name": "Unsweetened Cashew Milk",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "unsweetened cashew milk",
+        "unsweetened",
+        "cashew",
+        "milk"
+      ]
+    },
+    {
+      "name": "Cashew Cream Cheese",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "cashew cream cheese",
+        "cashew",
+        "cream",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Pistachios, In Shell",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "pistachios, in shell",
+        "pistachios,",
+        "in",
+        "shell"
+      ]
+    },
+    {
+      "name": "Cashew Butter",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "cashew butter",
+        "cashew",
+        "butter"
+      ]
+    },
+    {
+      "name": "Muesli",
+      "groupIds": [
+        "tree-nuts",
+        "gluten",
+        "oats"
+      ],
+      "searchTerms": [
+        "muesli",
+        "muesli"
+      ]
+    },
+    {
+      "name": "Vegan Cream Cheese",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "vegan cream cheese",
+        "vegan",
+        "cream",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Blanched Almonds",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "blanched almonds",
+        "blanched",
+        "almonds"
+      ]
+    },
+    {
+      "name": "Almond Extract",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "almond extract",
+        "almond",
+        "extract"
+      ]
+    },
+    {
+      "name": "Peanut Sauce",
+      "groupIds": [
+        "tree-nuts",
+        "gluten",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "peanut sauce",
+        "peanut",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Mixed Nuts",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "mixed nuts",
+        "mixed",
+        "nuts"
+      ]
+    },
+    {
+      "name": "Chestnuts",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "chestnuts",
+        "chestnuts"
+      ]
+    },
+    {
+      "name": "Chestnuts, In Shell",
+      "groupIds": [
+        "tree-nuts"
+      ],
+      "searchTerms": [
+        "chestnuts, in shell",
+        "chestnuts,",
+        "in",
+        "shell"
+      ]
+    },
+    {
+      "name": "Feta Cheese",
+      "groupIds": [
+        "dairy",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "feta cheese",
+        "feta",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Goat Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "goat cheese",
+        "goat",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Parmigiano Reggiano",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "parmigiano reggiano",
+        "parmigiano",
+        "reggiano"
+      ]
+    },
+    {
+      "name": "Cream, Half & Half",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cream, half & half",
+        "cream,",
+        "half",
+        "&",
+        "half"
+      ]
+    },
+    {
+      "name": "Small Bocconcini",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "small bocconcini",
+        "small",
+        "bocconcini"
+      ]
+    },
+    {
+      "name": "Brie Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "brie cheese",
+        "brie",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Mozzarella Ball",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "mozzarella ball",
+        "mozzarella",
+        "ball"
+      ]
+    },
+    {
+      "name": "Ghee",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "ghee",
+        "ghee"
+      ]
+    },
+    {
+      "name": "Swiss Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "swiss cheese",
+        "swiss",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Plain Greek Yogurt",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "plain greek yogurt",
+        "plain",
+        "greek",
+        "yogurt"
+      ]
+    },
+    {
+      "name": "Butter",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "butter",
+        "butter"
+      ]
+    },
+    {
+      "name": "White Chocolate Chips",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "white chocolate chips",
+        "white",
+        "chocolate",
+        "chips"
+      ]
+    },
+    {
+      "name": "Cottage Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cottage cheese",
+        "cottage",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Cheddar Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cheddar cheese",
+        "cheddar",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Ricotta Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "ricotta cheese",
+        "ricotta",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Plain Kefir",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "plain kefir",
+        "plain",
+        "kefir"
+      ]
+    },
+    {
+      "name": "Plain Sheep's Milk Yogurt",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "plain sheep's milk yogurt",
+        "plain",
+        "sheep's",
+        "milk",
+        "yogurt"
+      ]
+    },
+    {
+      "name": "Havarti Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "havarti cheese",
+        "havarti",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Halloumi",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "halloumi",
+        "halloumi"
+      ]
+    },
+    {
+      "name": "Pecorino Romano Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "pecorino romano cheese",
+        "pecorino",
+        "romano",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Mozzarella Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "mozzarella cheese",
+        "mozzarella",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Buttermilk",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "buttermilk",
+        "buttermilk"
+      ]
+    },
+    {
+      "name": "Cream Cheese, Regular",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cream cheese, regular",
+        "cream",
+        "cheese,",
+        "regular"
+      ]
+    },
+    {
+      "name": "Blue Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "blue cheese",
+        "blue",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Provolone Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "provolone cheese",
+        "provolone",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Paneer Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "paneer cheese",
+        "paneer",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Cow's Milk, Reduced Fat",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cow's milk, reduced fat",
+        "cow's",
+        "milk,",
+        "reduced",
+        "fat"
+      ]
+    },
+    {
+      "name": "Egg Noodles",
+      "groupIds": [
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "egg noodles",
+        "egg",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Gruyere Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "gruyere cheese",
+        "gruyere",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Beef Tortellini",
+      "groupIds": [
+        "dairy",
+        "eggs",
+        "gluten",
+        "beef"
+      ],
+      "searchTerms": [
+        "beef tortellini",
+        "beef",
+        "tortellini"
+      ]
+    },
+    {
+      "name": "Plain Cow's Yogurt, Whole Milk",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "plain cow's yogurt, whole milk",
+        "plain",
+        "cow's",
+        "yogurt,",
+        "whole",
+        "milk"
+      ]
+    },
+    {
+      "name": "Sweetened Condensed Milk, Low Fat",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "sweetened condensed milk, low fat",
+        "sweetened",
+        "condensed",
+        "milk,",
+        "low",
+        "fat"
+      ]
+    },
+    {
+      "name": "Phyllo Dough",
+      "groupIds": [
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "phyllo dough",
+        "phyllo",
+        "dough"
+      ]
+    },
+    {
+      "name": "Cauliflower Pizza Crust",
+      "groupIds": [
+        "dairy",
+        "eggs"
+      ],
+      "searchTerms": [
+        "cauliflower pizza crust",
+        "cauliflower",
+        "pizza",
+        "crust"
+      ]
+    },
+    {
+      "name": "Cheese Tortellini",
+      "groupIds": [
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "cheese tortellini",
+        "cheese",
+        "tortellini"
+      ]
+    },
+    {
+      "name": "Digestive Biscuit",
+      "groupIds": [
+        "dairy",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "digestive biscuit",
+        "digestive",
+        "biscuit"
+      ]
+    },
+    {
+      "name": "Cheese Curds",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cheese curds",
+        "cheese",
+        "curds"
+      ]
+    },
+    {
+      "name": "Whipping Cream",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "whipping cream",
+        "whipping",
+        "cream"
+      ]
+    },
+    {
+      "name": "Cow's Milk, Whole",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cow's milk, whole",
+        "cow's",
+        "milk,",
+        "whole"
+      ]
+    },
+    {
+      "name": "Wonton Wrapper",
+      "groupIds": [
+        "dairy",
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "wonton wrapper",
+        "wonton",
+        "wrapper"
+      ]
+    },
+    {
+      "name": "String Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "string cheese",
+        "string",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Puff Pastry",
+      "groupIds": [
+        "dairy",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "puff pastry",
+        "puff",
+        "pastry"
+      ]
+    },
+    {
+      "name": "Plain Goat Milk Yogurt",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "plain goat milk yogurt",
+        "plain",
+        "goat",
+        "milk",
+        "yogurt"
+      ]
+    },
+    {
+      "name": "Sour Cream",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "sour cream",
+        "sour",
+        "cream"
+      ]
+    },
+    {
+      "name": "Cotija Cheese",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "cotija cheese",
+        "cotija",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Labneh",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "labneh",
+        "labneh"
+      ]
+    },
+    {
+      "name": "Whipped Cream",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "whipped cream",
+        "whipped",
+        "cream"
+      ]
+    },
+    {
+      "name": "Prepared Pie Crust",
+      "groupIds": [
+        "dairy",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "prepared pie crust",
+        "prepared",
+        "pie",
+        "crust"
+      ]
+    },
+    {
+      "name": "Croissant",
+      "groupIds": [
+        "dairy",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "croissant",
+        "croissant"
+      ]
+    },
+    {
+      "name": "Chocolate Milk, Low Fat",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "chocolate milk, low fat",
+        "chocolate",
+        "milk,",
+        "low",
+        "fat"
+      ]
+    },
+    {
+      "name": "Milk Chocolate Chips",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "milk chocolate chips",
+        "milk",
+        "chocolate",
+        "chips"
+      ]
+    },
+    {
+      "name": "Burrata",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "burrata",
+        "burrata"
+      ]
+    },
+    {
+      "name": "Plain Skyr",
+      "groupIds": [
+        "dairy"
+      ],
+      "searchTerms": [
+        "plain skyr",
+        "plain",
+        "skyr"
+      ]
+    },
+    {
+      "name": "Gingersnap Cookies",
+      "groupIds": [
+        "dairy",
+        "wheat",
+        "gluten",
+        "soy"
+      ],
+      "searchTerms": [
+        "gingersnap cookies",
+        "gingersnap",
+        "cookies"
+      ]
+    },
+    {
+      "name": "Tart Shells",
+      "groupIds": [
+        "dairy",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "tart shells",
+        "tart",
+        "shells"
+      ]
+    },
+    {
+      "name": "Mascarpone Cheese",
+      "groupIds": [
+        "dairy",
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "mascarpone cheese",
+        "mascarpone",
+        "cheese"
+      ]
+    },
+    {
+      "name": "Egg",
+      "groupIds": [
+        "eggs"
+      ],
+      "searchTerms": [
+        "egg",
+        "egg"
+      ]
+    },
+    {
+      "name": "Mayonnaise",
+      "groupIds": [
+        "eggs"
+      ],
+      "searchTerms": [
+        "mayonnaise",
+        "mayonnaise"
+      ]
+    },
+    {
+      "name": "Egg Whites",
+      "groupIds": [
+        "eggs"
+      ],
+      "searchTerms": [
+        "egg whites",
+        "egg",
+        "whites"
+      ]
+    },
+    {
+      "name": "Lasagna Sheets",
+      "groupIds": [
+        "eggs",
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "lasagna sheets",
+        "lasagna",
+        "sheets"
+      ]
+    },
+    {
+      "name": "Egg Yolk",
+      "groupIds": [
+        "eggs"
+      ],
+      "searchTerms": [
+        "egg yolk",
+        "egg",
+        "yolk"
+      ]
+    },
+    {
+      "name": "Soy Milk",
+      "groupIds": [
+        "eggs",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "soy milk",
+        "soy",
+        "milk"
+      ]
+    },
+    {
+      "name": "Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "bread",
+        "bread"
+      ]
+    },
+    {
+      "name": "Rye Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "rye bread",
+        "rye",
+        "bread"
+      ]
+    },
+    {
+      "name": "Whole Grain Crackers",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole grain crackers",
+        "whole",
+        "grain",
+        "crackers"
+      ]
+    },
+    {
+      "name": "Whole Wheat Tortilla",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat tortilla",
+        "whole",
+        "wheat",
+        "tortilla"
+      ]
+    },
+    {
+      "name": "Bread Crumbs",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "bread crumbs",
+        "bread",
+        "crumbs"
+      ]
+    },
+    {
+      "name": "Whole Wheat Penne",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat penne",
+        "whole",
+        "wheat",
+        "penne"
+      ]
+    },
+    {
+      "name": "Whole Grain Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole grain bread",
+        "whole",
+        "grain",
+        "bread"
+      ]
+    },
+    {
+      "name": "Whole Wheat Flatbread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat flatbread",
+        "whole",
+        "wheat",
+        "flatbread"
+      ]
+    },
+    {
+      "name": "Udon Noodles",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "udon noodles",
+        "udon",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Spelt Flour",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "spelt flour",
+        "spelt",
+        "flour"
+      ]
+    },
+    {
+      "name": "Orzo",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "orzo",
+        "orzo"
+      ]
+    },
+    {
+      "name": "Couscous",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "couscous",
+        "couscous"
+      ]
+    },
+    {
+      "name": "Light Rye Crisp Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "light rye crisp bread",
+        "light",
+        "rye",
+        "crisp",
+        "bread"
+      ]
+    },
+    {
+      "name": "Whole Wheat Pita",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat pita",
+        "whole",
+        "wheat",
+        "pita"
+      ]
+    },
+    {
+      "name": "Farro",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "farro",
+        "farro"
+      ]
+    },
+    {
+      "name": "Freekeh",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "freekeh",
+        "freekeh"
+      ]
+    },
+    {
+      "name": "Whole Wheat Hot Dog Bun",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat hot dog bun",
+        "whole",
+        "wheat",
+        "hot",
+        "dog",
+        "bun"
+      ]
+    },
+    {
+      "name": "Sourdough Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "sourdough bread",
+        "sourdough",
+        "bread"
+      ]
+    },
+    {
+      "name": "White Pita Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "white pita bread",
+        "white",
+        "pita",
+        "bread"
+      ]
+    },
+    {
+      "name": "Rigatoni",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "rigatoni",
+        "rigatoni"
+      ]
+    },
+    {
+      "name": "English Muffin",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "english muffin",
+        "english",
+        "muffin"
+      ]
+    },
+    {
+      "name": "Whole Wheat Linguine",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat linguine",
+        "whole",
+        "wheat",
+        "linguine"
+      ]
+    },
+    {
+      "name": "Pretzels",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "pretzels",
+        "pretzels"
+      ]
+    },
+    {
+      "name": "Whole Wheat Bun",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat bun",
+        "whole",
+        "wheat",
+        "bun"
+      ]
+    },
+    {
+      "name": "Unbleached All Purpose Flour",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "unbleached all purpose flour",
+        "unbleached",
+        "all",
+        "purpose",
+        "flour"
+      ]
+    },
+    {
+      "name": "Chow Mein Noodles",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "chow mein noodles",
+        "chow",
+        "mein",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Seitan",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "seitan",
+        "seitan"
+      ]
+    },
+    {
+      "name": "White Hamburger Slider Buns",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "white hamburger slider buns",
+        "white",
+        "hamburger",
+        "slider",
+        "buns"
+      ]
+    },
+    {
+      "name": "Soy Sauce",
+      "groupIds": [
+        "wheat",
+        "gluten",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "soy sauce",
+        "soy",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Whole Wheat Flour",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat flour",
+        "whole",
+        "wheat",
+        "flour"
+      ]
+    },
+    {
+      "name": "Textured Vegetable Protein",
+      "groupIds": [
+        "wheat",
+        "gluten",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "textured vegetable protein",
+        "textured",
+        "vegetable",
+        "protein"
+      ]
+    },
+    {
+      "name": "Mini Whole Wheat Pita",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "mini whole wheat pita",
+        "mini",
+        "whole",
+        "wheat",
+        "pita"
+      ]
+    },
+    {
+      "name": "Israeli Couscous",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "israeli couscous",
+        "israeli",
+        "couscous"
+      ]
+    },
+    {
+      "name": "Sourdough Baguette",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "sourdough baguette",
+        "sourdough",
+        "baguette"
+      ]
+    },
+    {
+      "name": "Whole Wheat Spaghetti",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat spaghetti",
+        "whole",
+        "wheat",
+        "spaghetti"
+      ]
+    },
+    {
+      "name": "Cannelloni Shells",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "cannelloni shells",
+        "cannelloni",
+        "shells"
+      ]
+    },
+    {
+      "name": "Pizza Dough",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "pizza dough",
+        "pizza",
+        "dough"
+      ]
+    },
+    {
+      "name": "Soy Sauce, Low Sodium",
+      "groupIds": [
+        "wheat",
+        "gluten",
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "soy sauce, low sodium",
+        "soy",
+        "sauce,",
+        "low",
+        "sodium"
+      ]
+    },
+    {
+      "name": "Jumbo Pasta Shells",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "jumbo pasta shells",
+        "jumbo",
+        "pasta",
+        "shells"
+      ]
+    },
+    {
+      "name": "Bagel",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "bagel",
+        "bagel"
+      ]
+    },
+    {
+      "name": "Whole Wheat Bagel",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat bagel",
+        "whole",
+        "wheat",
+        "bagel"
+      ]
+    },
+    {
+      "name": "Spelt Tortilla",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "spelt tortilla",
+        "spelt",
+        "tortilla"
+      ]
+    },
+    {
+      "name": "White Bread",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "white bread",
+        "white",
+        "bread"
+      ]
+    },
+    {
+      "name": "Semolina",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "semolina",
+        "semolina"
+      ]
+    },
+    {
+      "name": "Farfalle",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "farfalle",
+        "farfalle"
+      ]
+    },
+    {
+      "name": "Macaroni",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "macaroni",
+        "macaroni"
+      ]
+    },
+    {
+      "name": "Linguine",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "linguine",
+        "linguine"
+      ]
+    },
+    {
+      "name": "Pita Chips",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "pita chips",
+        "pita",
+        "chips"
+      ]
+    },
+    {
+      "name": "Dumpling Wrappers",
+      "groupIds": [
+        "wheat",
+        "gluten",
+        "corn"
+      ],
+      "searchTerms": [
+        "dumpling wrappers",
+        "dumpling",
+        "wrappers"
+      ]
+    },
+    {
+      "name": "Matzo",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "matzo",
+        "matzo"
+      ]
+    },
+    {
+      "name": "Matzo Meal",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "matzo meal",
+        "matzo",
+        "meal"
+      ]
+    },
+    {
+      "name": "Submarine Bun",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "submarine bun",
+        "submarine",
+        "bun"
+      ]
+    },
+    {
+      "name": "Graham Crackers",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "graham crackers",
+        "graham",
+        "crackers"
+      ]
+    },
+    {
+      "name": "Whole Wheat Rotini Pasta",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "whole wheat rotini pasta",
+        "whole",
+        "wheat",
+        "rotini",
+        "pasta"
+      ]
+    },
+    {
+      "name": "Pappardelle Pasta",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "pappardelle pasta",
+        "pappardelle",
+        "pasta"
+      ]
+    },
+    {
+      "name": "Focaccia",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "focaccia",
+        "focaccia"
+      ]
+    },
+    {
+      "name": "Bulgur",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "bulgur",
+        "bulgur"
+      ]
+    },
+    {
+      "name": "Panko Bread Crumbs",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "panko bread crumbs",
+        "panko",
+        "bread",
+        "crumbs"
+      ]
+    },
+    {
+      "name": "Lo Mein Noodles",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "lo mein noodles",
+        "lo",
+        "mein",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Cavatappi Pasta",
+      "groupIds": [
+        "wheat",
+        "gluten"
+      ],
+      "searchTerms": [
+        "cavatappi pasta",
+        "cavatappi",
+        "pasta"
+      ]
+    },
+    {
+      "name": "Pearl Barley",
+      "groupIds": [
+        "gluten"
+      ],
+      "searchTerms": [
+        "pearl barley",
+        "pearl",
+        "barley"
+      ]
+    },
+    {
+      "name": "Naan",
+      "groupIds": [
+        "gluten"
+      ],
+      "searchTerms": [
+        "naan",
+        "naan"
+      ]
+    },
+    {
+      "name": "Tamari",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "tamari",
+        "tamari"
+      ]
+    },
+    {
+      "name": "Frozen Edamame",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "frozen edamame",
+        "frozen",
+        "edamame"
+      ]
+    },
+    {
+      "name": "Tofu",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "tofu",
+        "tofu"
+      ]
+    },
+    {
+      "name": "Tempeh",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "tempeh",
+        "tempeh"
+      ]
+    },
+    {
+      "name": "Miso Paste",
+      "groupIds": [
+        "soy",
+        "rice",
+        "legumes"
+      ],
+      "searchTerms": [
+        "miso paste",
+        "miso",
+        "paste"
+      ]
+    },
+    {
+      "name": "Vegan Mayonnaise",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "vegan mayonnaise",
+        "vegan",
+        "mayonnaise"
+      ]
+    },
+    {
+      "name": "Edamame Pods",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "edamame pods",
+        "edamame",
+        "pods"
+      ]
+    },
+    {
+      "name": "Silken Tofu",
+      "groupIds": [
+        "soy",
+        "legumes"
+      ],
+      "searchTerms": [
+        "silken tofu",
+        "silken",
+        "tofu"
+      ]
+    },
+    {
+      "name": "Vegetable Oil",
+      "groupIds": [
+        "soy"
+      ],
+      "searchTerms": [
+        "vegetable oil",
+        "vegetable",
+        "oil"
+      ]
+    },
+    {
+      "name": "Popcorn Kernels",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "popcorn kernels",
+        "popcorn",
+        "kernels"
+      ]
+    },
+    {
+      "name": "Popcorn",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "popcorn",
+        "popcorn"
+      ]
+    },
+    {
+      "name": "Frozen Corn",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "frozen corn",
+        "frozen",
+        "corn"
+      ]
+    },
+    {
+      "name": "Corn on the Cob",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "corn on the cob",
+        "corn",
+        "on",
+        "the",
+        "cob"
+      ]
+    },
+    {
+      "name": "Corn",
+      "groupIds": [
+        "corn",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "corn",
+        "corn"
+      ]
+    },
+    {
+      "name": "Corn Tortilla",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "corn tortilla",
+        "corn",
+        "tortilla"
+      ]
+    },
+    {
+      "name": "Cornmeal",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "cornmeal",
+        "cornmeal"
+      ]
+    },
+    {
+      "name": "Corn Tortilla Chips",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "corn tortilla chips",
+        "corn",
+        "tortilla",
+        "chips"
+      ]
+    },
+    {
+      "name": "Old Fashioned Grits",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "old fashioned grits",
+        "old",
+        "fashioned",
+        "grits"
+      ]
+    },
+    {
+      "name": "Frozen Vegetable Mix",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "frozen vegetable mix",
+        "frozen",
+        "vegetable",
+        "mix"
+      ]
+    },
+    {
+      "name": "Vegan Cheese Shreds",
+      "groupIds": [
+        "corn",
+        "legumes"
+      ],
+      "searchTerms": [
+        "vegan cheese shreds",
+        "vegan",
+        "cheese",
+        "shreds"
+      ]
+    },
+    {
+      "name": "Cornstarch",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "cornstarch",
+        "cornstarch"
+      ]
+    },
+    {
+      "name": "Hominy",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "hominy",
+        "hominy"
+      ]
+    },
+    {
+      "name": "Corn Flour",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "corn flour",
+        "corn",
+        "flour"
+      ]
+    },
+    {
+      "name": "Blueberry Jam",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "blueberry jam",
+        "blueberry",
+        "jam"
+      ]
+    },
+    {
+      "name": "Marshmallows",
+      "groupIds": [
+        "corn",
+        "beef"
+      ],
+      "searchTerms": [
+        "marshmallows",
+        "marshmallows"
+      ]
+    },
+    {
+      "name": "Creamed Corn",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "creamed corn",
+        "creamed",
+        "corn"
+      ]
+    },
+    {
+      "name": "Hard Taco Shell",
+      "groupIds": [
+        "corn"
+      ],
+      "searchTerms": [
+        "hard taco shell",
+        "hard",
+        "taco",
+        "shell"
+      ]
+    },
+    {
+      "name": "Brown Rice Tortilla",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice tortilla",
+        "brown",
+        "rice",
+        "tortilla"
+      ]
+    },
+    {
+      "name": "Brown Rice Spaghetti",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice spaghetti",
+        "brown",
+        "rice",
+        "spaghetti"
+      ]
+    },
+    {
+      "name": "Brown Rice Penne",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice penne",
+        "brown",
+        "rice",
+        "penne"
+      ]
+    },
+    {
+      "name": "Brown Rice Fusilli",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice fusilli",
+        "brown",
+        "rice",
+        "fusilli"
+      ]
+    },
+    {
+      "name": "Brown Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice",
+        "brown",
+        "rice"
+      ]
+    },
+    {
+      "name": "Brown Rice Macaroni",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice macaroni",
+        "brown",
+        "rice",
+        "macaroni"
+      ]
+    },
+    {
+      "name": "Brown Rice Vermicelli Noodles",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice vermicelli noodles",
+        "brown",
+        "rice",
+        "vermicelli",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Rice Paper Wraps",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "rice paper wraps",
+        "rice",
+        "paper",
+        "wraps"
+      ]
+    },
+    {
+      "name": "Rice Puffs Cereal",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "rice puffs cereal",
+        "rice",
+        "puffs",
+        "cereal"
+      ]
+    },
+    {
+      "name": "Brown Rice Flour",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice flour",
+        "brown",
+        "rice",
+        "flour"
+      ]
+    },
+    {
+      "name": "Jasmine Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "jasmine rice",
+        "jasmine",
+        "rice"
+      ]
+    },
+    {
+      "name": "All Purpose Gluten-Free Flour",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "all purpose gluten-free flour",
+        "all",
+        "purpose",
+        "gluten-free",
+        "flour"
+      ]
+    },
+    {
+      "name": "Plain Rice Cake",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "plain rice cake",
+        "plain",
+        "rice",
+        "cake"
+      ]
+    },
+    {
+      "name": "Rice Vinegar",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "rice vinegar",
+        "rice",
+        "vinegar"
+      ]
+    },
+    {
+      "name": "Pho Noodles",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "pho noodles",
+        "pho",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Brown Rice Cake",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice cake",
+        "brown",
+        "rice",
+        "cake"
+      ]
+    },
+    {
+      "name": "Wild Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "wild rice",
+        "wild",
+        "rice"
+      ]
+    },
+    {
+      "name": "Basmati Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "basmati rice",
+        "basmati",
+        "rice"
+      ]
+    },
+    {
+      "name": "Gluten-Free Bread",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "gluten-free bread",
+        "gluten-free",
+        "bread"
+      ]
+    },
+    {
+      "name": "Seed Crackers",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "seed crackers",
+        "seed",
+        "crackers"
+      ]
+    },
+    {
+      "name": "Brown Basmati Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown basmati rice",
+        "brown",
+        "basmati",
+        "rice"
+      ]
+    },
+    {
+      "name": "Black Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "black rice",
+        "black",
+        "rice"
+      ]
+    },
+    {
+      "name": "Chinese Cooking Wine",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "chinese cooking wine",
+        "chinese",
+        "cooking",
+        "wine"
+      ]
+    },
+    {
+      "name": "Brown Rice Pasta Shells",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice pasta shells",
+        "brown",
+        "rice",
+        "pasta",
+        "shells"
+      ]
+    },
+    {
+      "name": "Unsweetened Rice Milk",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "unsweetened rice milk",
+        "unsweetened",
+        "rice",
+        "milk"
+      ]
+    },
+    {
+      "name": "Gluten-Free Ramen Noodles",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "gluten-free ramen noodles",
+        "gluten-free",
+        "ramen",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Arborio Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "arborio rice",
+        "arborio",
+        "rice"
+      ]
+    },
+    {
+      "name": "Calrose Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "calrose rice",
+        "calrose",
+        "rice"
+      ]
+    },
+    {
+      "name": "Rice Crackers",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "rice crackers",
+        "rice",
+        "crackers"
+      ]
+    },
+    {
+      "name": "Brown Rice Fettuccine",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice fettuccine",
+        "brown",
+        "rice",
+        "fettuccine"
+      ]
+    },
+    {
+      "name": "Brown Rice Fusilli, Cooked",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "brown rice fusilli, cooked",
+        "brown",
+        "rice",
+        "fusilli,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "White Glutinous Rice",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "white glutinous rice",
+        "white",
+        "glutinous",
+        "rice"
+      ]
+    },
+    {
+      "name": "Gluten-Free Bagel",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "gluten-free bagel",
+        "gluten-free",
+        "bagel"
+      ]
+    },
+    {
+      "name": "Gluten-Free Waffle",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "gluten-free waffle",
+        "gluten-free",
+        "waffle"
+      ]
+    },
+    {
+      "name": "Rice Vermicelli Noodles",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "rice vermicelli noodles",
+        "rice",
+        "vermicelli",
+        "noodles"
+      ]
+    },
+    {
+      "name": "Salmon Burger Patty",
+      "groupIds": [
+        "rice",
+        "fish"
+      ],
+      "searchTerms": [
+        "salmon burger patty",
+        "salmon",
+        "burger",
+        "patty"
+      ]
+    },
+    {
+      "name": "Basmati Rice, Cooked",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "basmati rice, cooked",
+        "basmati",
+        "rice,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "Gluten-Free Bread Crumbs",
+      "groupIds": [
+        "rice"
+      ],
+      "searchTerms": [
+        "gluten-free bread crumbs",
+        "gluten-free",
+        "bread",
+        "crumbs"
+      ]
+    },
+    {
+      "name": "Pickled Turnip",
+      "groupIds": [
+        "rice",
+        "coconut"
+      ],
+      "searchTerms": [
+        "pickled turnip",
+        "pickled",
+        "turnip"
+      ]
+    },
+    {
+      "name": "Oats",
+      "groupIds": [
+        "oats",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "oats",
+        "oats"
+      ]
+    },
+    {
+      "name": "Steel Cut Oats",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "steel cut oats",
+        "steel",
+        "cut",
+        "oats"
+      ]
+    },
+    {
+      "name": "Oat Flour",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "oat flour",
+        "oat",
+        "flour"
+      ]
+    },
+    {
+      "name": "Granola",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "granola",
+        "granola"
+      ]
+    },
+    {
+      "name": "Oat Crackers",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "oat crackers",
+        "oat",
+        "crackers"
+      ]
+    },
+    {
+      "name": "Quick Oats",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "quick oats",
+        "quick",
+        "oats"
+      ]
+    },
+    {
+      "name": "Oat Milk",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "oat milk",
+        "oat",
+        "milk"
+      ]
+    },
+    {
+      "name": "Oat Bran",
+      "groupIds": [
+        "oats"
+      ],
+      "searchTerms": [
+        "oat bran",
+        "oat",
+        "bran"
+      ]
+    },
+    {
+      "name": "Salmon Fillet",
+      "groupIds": [
+        "fish",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "salmon fillet",
+        "salmon",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Shrimp",
+      "groupIds": [
+        "fish",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "shrimp",
+        "shrimp"
+      ]
+    },
+    {
+      "name": "Tilapia Fillet",
+      "groupIds": [
+        "fish",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "tilapia fillet",
+        "tilapia",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Tuna",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "tuna",
+        "tuna"
+      ]
+    },
+    {
+      "name": "Halibut Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "halibut fillet",
+        "halibut",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Cod Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "cod fillet",
+        "cod",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Haddock Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "haddock fillet",
+        "haddock",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Rainbow Trout Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "rainbow trout fillet",
+        "rainbow",
+        "trout",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Smoked Salmon",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "smoked salmon",
+        "smoked",
+        "salmon"
+      ]
+    },
+    {
+      "name": "Tuna Steak",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "tuna steak",
+        "tuna",
+        "steak"
+      ]
+    },
+    {
+      "name": "Canned Wild Salmon",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "canned wild salmon",
+        "canned",
+        "wild",
+        "salmon"
+      ]
+    },
+    {
+      "name": "Sole Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "sole fillet",
+        "sole",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Collagen Powder",
+      "groupIds": [
+        "fish",
+        "beef"
+      ],
+      "searchTerms": [
+        "collagen powder",
+        "collagen",
+        "powder"
+      ]
+    },
+    {
+      "name": "Sardines",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "sardines",
+        "sardines"
+      ]
+    },
+    {
+      "name": "Fish Sauce",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "fish sauce",
+        "fish",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Smoked Herring Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "smoked herring fillet",
+        "smoked",
+        "herring",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Scallops",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "scallops",
+        "scallops"
+      ]
+    },
+    {
+      "name": "Mackerel Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "mackerel fillet",
+        "mackerel",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Ahi Tuna",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "ahi tuna",
+        "ahi",
+        "tuna"
+      ]
+    },
+    {
+      "name": "Mussels",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "mussels",
+        "mussels"
+      ]
+    },
+    {
+      "name": "Anchovy",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "anchovy",
+        "anchovy"
+      ]
+    },
+    {
+      "name": "Shrimp, Cooked",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "shrimp, cooked",
+        "shrimp,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "Monkfish Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "monkfish fillet",
+        "monkfish",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Sea Bass Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "sea bass fillet",
+        "sea",
+        "bass",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Canned Mackerel",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "canned mackerel",
+        "canned",
+        "mackerel"
+      ]
+    },
+    {
+      "name": "Calamari",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "calamari",
+        "calamari"
+      ]
+    },
+    {
+      "name": "Fresh Lump Crab Meat, Cooked",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "fresh lump crab meat, cooked",
+        "fresh",
+        "lump",
+        "crab",
+        "meat,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "Snow Pea Shoots",
+      "groupIds": [
+        "fish",
+        "beef"
+      ],
+      "searchTerms": [
+        "snow pea shoots",
+        "snow",
+        "pea",
+        "shoots"
+      ]
+    },
+    {
+      "name": "Oyster Sauce",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "oyster sauce",
+        "oyster",
+        "sauce"
+      ]
+    },
+    {
+      "name": "Salmon Steak",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "salmon steak",
+        "salmon",
+        "steak"
+      ]
+    },
+    {
+      "name": "King Mackerel Steak",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "king mackerel steak",
+        "king",
+        "mackerel",
+        "steak"
+      ]
+    },
+    {
+      "name": "Smoked Oysters",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "smoked oysters",
+        "smoked",
+        "oysters"
+      ]
+    },
+    {
+      "name": "Anchovy Paste",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "anchovy paste",
+        "anchovy",
+        "paste"
+      ]
+    },
+    {
+      "name": "Canned Clams",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "canned clams",
+        "canned",
+        "clams"
+      ]
+    },
+    {
+      "name": "Whole Sea Bass",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "whole sea bass",
+        "whole",
+        "sea",
+        "bass"
+      ]
+    },
+    {
+      "name": "Mahi Mahi Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "mahi mahi fillet",
+        "mahi",
+        "mahi",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Pickerel Fillet",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "pickerel fillet",
+        "pickerel",
+        "fillet"
+      ]
+    },
+    {
+      "name": "Clams",
+      "groupIds": [
+        "fish"
+      ],
+      "searchTerms": [
+        "clams",
+        "clams"
+      ]
+    },
+    {
+      "name": "Green Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "green beans",
+        "green",
+        "beans"
+      ]
+    },
+    {
+      "name": "Frozen Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "frozen peas",
+        "frozen",
+        "peas"
+      ]
+    },
+    {
+      "name": "Black Beans",
+      "groupIds": [
+        "legumes",
+        "high-fodmap",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "black beans",
+        "black",
+        "beans"
+      ]
+    },
+    {
+      "name": "Chickpeas",
+      "groupIds": [
+        "legumes",
+        "high-fodmap",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "chickpeas",
+        "chickpeas"
+      ]
+    },
+    {
+      "name": "Green Lentils",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "green lentils",
+        "green",
+        "lentils"
+      ]
+    },
+    {
+      "name": "White Navy Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "white navy beans",
+        "white",
+        "navy",
+        "beans"
+      ]
+    },
+    {
+      "name": "Snap Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "snap peas",
+        "snap",
+        "peas"
+      ]
+    },
+    {
+      "name": "Red Kidney Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "red kidney beans",
+        "red",
+        "kidney",
+        "beans"
+      ]
+    },
+    {
+      "name": "Fresh Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "fresh peas",
+        "fresh",
+        "peas"
+      ]
+    },
+    {
+      "name": "Alfalfa Sprouts",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "alfalfa sprouts",
+        "alfalfa",
+        "sprouts"
+      ]
+    },
+    {
+      "name": "Dry Red Lentils",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry red lentils",
+        "dry",
+        "red",
+        "lentils"
+      ]
+    },
+    {
+      "name": "Lentils",
+      "groupIds": [
+        "legumes",
+        "high-fodmap",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "lentils",
+        "lentils"
+      ]
+    },
+    {
+      "name": "Frozen Green Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "frozen green beans",
+        "frozen",
+        "green",
+        "beans"
+      ]
+    },
+    {
+      "name": "Yellow Split Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "yellow split peas",
+        "yellow",
+        "split",
+        "peas"
+      ]
+    },
+    {
+      "name": "Bean Sprouts",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "bean sprouts",
+        "bean",
+        "sprouts"
+      ]
+    },
+    {
+      "name": "Mixed Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "mixed beans",
+        "mixed",
+        "beans"
+      ]
+    },
+    {
+      "name": "Chickpea Flour",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "chickpea flour",
+        "chickpea",
+        "flour"
+      ]
+    },
+    {
+      "name": "Chickpea Pasta",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "chickpea pasta",
+        "chickpea",
+        "pasta"
+      ]
+    },
+    {
+      "name": "Dry Black Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry black beans",
+        "dry",
+        "black",
+        "beans"
+      ]
+    },
+    {
+      "name": "Dry Lentils",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry lentils",
+        "dry",
+        "lentils"
+      ]
+    },
+    {
+      "name": "Lentil Macaroni",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "lentil macaroni",
+        "lentil",
+        "macaroni"
+      ]
+    },
+    {
+      "name": "Dry Chickpeas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry chickpeas",
+        "dry",
+        "chickpeas"
+      ]
+    },
+    {
+      "name": "Fava Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "fava beans",
+        "fava",
+        "beans"
+      ]
+    },
+    {
+      "name": "Black Eyed Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "black eyed peas",
+        "black",
+        "eyed",
+        "peas"
+      ]
+    },
+    {
+      "name": "Cannellini Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "cannellini beans",
+        "cannellini",
+        "beans"
+      ]
+    },
+    {
+      "name": "Dry Green Lentils",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry green lentils",
+        "dry",
+        "green",
+        "lentils"
+      ]
+    },
+    {
+      "name": "Dry Yellow Lentils",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry yellow lentils",
+        "dry",
+        "yellow",
+        "lentils"
+      ]
+    },
+    {
+      "name": "Snow Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "snow peas",
+        "snow",
+        "peas"
+      ]
+    },
+    {
+      "name": "Dry Black Eyed Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry black eyed peas",
+        "dry",
+        "black",
+        "eyed",
+        "peas"
+      ]
+    },
+    {
+      "name": "Lima Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "lima beans",
+        "lima",
+        "beans"
+      ]
+    },
+    {
+      "name": "Yellow Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "yellow beans",
+        "yellow",
+        "beans"
+      ]
+    },
+    {
+      "name": "Dried Green Peas",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dried green peas",
+        "dried",
+        "green",
+        "peas"
+      ]
+    },
+    {
+      "name": "Frozen Broad Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "frozen broad beans",
+        "frozen",
+        "broad",
+        "beans"
+      ]
+    },
+    {
+      "name": "Pinto Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "pinto beans",
+        "pinto",
+        "beans"
+      ]
+    },
+    {
+      "name": "Dry White Navy Beans",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "dry white navy beans",
+        "dry",
+        "white",
+        "navy",
+        "beans"
+      ]
+    },
+    {
+      "name": "Balsamic Glaze",
+      "groupIds": [
+        "legumes"
+      ],
+      "searchTerms": [
+        "balsamic glaze",
+        "balsamic",
+        "glaze"
+      ]
+    },
+    {
+      "name": "Mung Beans",
+      "groupIds": [
+        "legumes",
+        "turkey"
+      ],
+      "searchTerms": [
+        "mung beans",
+        "mung",
+        "beans"
+      ]
+    },
+    {
+      "name": "Portobello Mushroom",
+      "groupIds": [
+        "mushrooms",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "portobello mushroom",
+        "portobello",
+        "mushroom"
+      ]
+    },
+    {
+      "name": "Mushrooms",
+      "groupIds": [
+        "mushrooms",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "mushrooms",
+        "mushrooms"
+      ]
+    },
+    {
+      "name": "Portobello Mushroom Caps",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "portobello mushroom caps",
+        "portobello",
+        "mushroom",
+        "caps"
+      ]
+    },
+    {
+      "name": "Shiitake Mushrooms",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "shiitake mushrooms",
+        "shiitake",
+        "mushrooms"
+      ]
+    },
+    {
+      "name": "White Button Mushrooms",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "white button mushrooms",
+        "white",
+        "button",
+        "mushrooms"
+      ]
+    },
+    {
+      "name": "Cremini Mushrooms",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "cremini mushrooms",
+        "cremini",
+        "mushrooms"
+      ]
+    },
+    {
+      "name": "Oyster Mushrooms",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "oyster mushrooms",
+        "oyster",
+        "mushrooms"
+      ]
+    },
+    {
+      "name": "Reishi Powder",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "reishi powder",
+        "reishi",
+        "powder"
+      ]
+    },
+    {
+      "name": "Lion's Mane Powder",
+      "groupIds": [
+        "mushrooms"
+      ],
+      "searchTerms": [
+        "lion's mane powder",
+        "lion's",
+        "mane",
+        "powder"
+      ]
+    },
+    {
+      "name": "Unsweetened Coconut Flakes",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "unsweetened coconut flakes",
+        "unsweetened",
+        "coconut",
+        "flakes"
+      ]
+    },
+    {
+      "name": "Coconut Flour",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut flour",
+        "coconut",
+        "flour"
+      ]
+    },
+    {
+      "name": "Coconut Oil",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut oil",
+        "coconut",
+        "oil"
+      ]
+    },
+    {
+      "name": "Canned Coconut Milk",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "canned coconut milk",
+        "canned",
+        "coconut",
+        "milk"
+      ]
+    },
+    {
+      "name": "Coconut Ice Cream",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut ice cream",
+        "coconut",
+        "ice",
+        "cream"
+      ]
+    },
+    {
+      "name": "Grain-Free Flax Bread",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "grain-free flax bread",
+        "grain-free",
+        "flax",
+        "bread"
+      ]
+    },
+    {
+      "name": "Coconut Aminos",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut aminos",
+        "coconut",
+        "aminos"
+      ]
+    },
+    {
+      "name": "Unsweetened Shredded Coconut",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "unsweetened shredded coconut",
+        "unsweetened",
+        "shredded",
+        "coconut"
+      ]
+    },
+    {
+      "name": "Coconut Sugar",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut sugar",
+        "coconut",
+        "sugar"
+      ]
+    },
+    {
+      "name": "Unsweetened Coconut Yogurt",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "unsweetened coconut yogurt",
+        "unsweetened",
+        "coconut",
+        "yogurt"
+      ]
+    },
+    {
+      "name": "Coconut Butter",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut butter",
+        "coconut",
+        "butter"
+      ]
+    },
+    {
+      "name": "Lite Coconut Milk",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "lite coconut milk",
+        "lite",
+        "coconut",
+        "milk"
+      ]
+    },
+    {
+      "name": "Plain Coconut Milk",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "plain coconut milk",
+        "plain",
+        "coconut",
+        "milk"
+      ]
+    },
+    {
+      "name": "Coconut Whipped Cream",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut whipped cream",
+        "coconut",
+        "whipped",
+        "cream"
+      ]
+    },
+    {
+      "name": "Coconut Meat",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut meat",
+        "coconut",
+        "meat"
+      ]
+    },
+    {
+      "name": "Coconut Water",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut water",
+        "coconut",
+        "water"
+      ]
+    },
+    {
+      "name": "Coconut Cream",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "coconut cream",
+        "coconut",
+        "cream"
+      ]
+    },
+    {
+      "name": "Plain Coconut Kefir",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "plain coconut kefir",
+        "plain",
+        "coconut",
+        "kefir"
+      ]
+    },
+    {
+      "name": "Plain Coconut Kefir Yogurt",
+      "groupIds": [
+        "coconut"
+      ],
+      "searchTerms": [
+        "plain coconut kefir yogurt",
+        "plain",
+        "coconut",
+        "kefir",
+        "yogurt"
+      ]
+    },
+    {
+      "name": "Beef Tenderloin",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef tenderloin",
+        "beef",
+        "tenderloin"
+      ]
+    },
+    {
+      "name": "Top Sirloin Beef Roast",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "top sirloin beef roast",
+        "top",
+        "sirloin",
+        "beef",
+        "roast"
+      ]
+    },
+    {
+      "name": "Gelatin",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "gelatin",
+        "gelatin"
+      ]
+    },
+    {
+      "name": "NY Striploin Steak",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "ny striploin steak",
+        "ny",
+        "striploin",
+        "steak"
+      ]
+    },
+    {
+      "name": "Extra Lean Ground Beef",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "extra lean ground beef",
+        "extra",
+        "lean",
+        "ground",
+        "beef"
+      ]
+    },
+    {
+      "name": "Stewing Beef",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "stewing beef",
+        "stewing",
+        "beef"
+      ]
+    },
+    {
+      "name": "Beef Brisket",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef brisket",
+        "beef",
+        "brisket"
+      ]
+    },
+    {
+      "name": "Top Sirloin Steak",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "top sirloin steak",
+        "top",
+        "sirloin",
+        "steak"
+      ]
+    },
+    {
+      "name": "Beef Liver",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef liver",
+        "beef",
+        "liver"
+      ]
+    },
+    {
+      "name": "Deli Roast Beef",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "deli roast beef",
+        "deli",
+        "roast",
+        "beef"
+      ]
+    },
+    {
+      "name": "Flank Steak",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "flank steak",
+        "flank",
+        "steak"
+      ]
+    },
+    {
+      "name": "Flat Iron Steak",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "flat iron steak",
+        "flat",
+        "iron",
+        "steak"
+      ]
+    },
+    {
+      "name": "Oxtail",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "oxtail",
+        "oxtail"
+      ]
+    },
+    {
+      "name": "Beef Heart",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef heart",
+        "beef",
+        "heart"
+      ]
+    },
+    {
+      "name": "Ribeye Steak, Bone-in",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "ribeye steak, bone-in",
+        "ribeye",
+        "steak,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Skirt Steak",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "skirt steak",
+        "skirt",
+        "steak"
+      ]
+    },
+    {
+      "name": "Beef Bones",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef bones",
+        "beef",
+        "bones"
+      ]
+    },
+    {
+      "name": "Lean Ground Beef",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "lean ground beef",
+        "lean",
+        "ground",
+        "beef"
+      ]
+    },
+    {
+      "name": "Strip Loin Roast",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "strip loin roast",
+        "strip",
+        "loin",
+        "roast"
+      ]
+    },
+    {
+      "name": "Beef Shanks",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef shanks",
+        "beef",
+        "shanks"
+      ]
+    },
+    {
+      "name": "Lean Beef Patty",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "lean beef patty",
+        "lean",
+        "beef",
+        "patty"
+      ]
+    },
+    {
+      "name": "Ribeye Steak, Boneless",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "ribeye steak, boneless",
+        "ribeye",
+        "steak,",
+        "boneless"
+      ]
+    },
+    {
+      "name": "Veal Shank, Bone-in",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "veal shank, bone-in",
+        "veal",
+        "shank,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Chuck Roast",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "chuck roast",
+        "chuck",
+        "roast"
+      ]
+    },
+    {
+      "name": "Beef Jerky",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef jerky",
+        "beef",
+        "jerky"
+      ]
+    },
+    {
+      "name": "Prime Rib, Bone-In",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "prime rib, bone-in",
+        "prime",
+        "rib,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Beef Short Ribs, Bone-In",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "beef short ribs, bone-in",
+        "beef",
+        "short",
+        "ribs,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Veal Leg Cutlet",
+      "groupIds": [
+        "beef"
+      ],
+      "searchTerms": [
+        "veal leg cutlet",
+        "veal",
+        "leg",
+        "cutlet"
+      ]
+    },
+    {
+      "name": "Bacon",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "bacon",
+        "bacon"
+      ]
+    },
+    {
+      "name": "Prosciutto",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "prosciutto",
+        "prosciutto"
+      ]
+    },
+    {
+      "name": "Pork Tenderloin",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork tenderloin",
+        "pork",
+        "tenderloin"
+      ]
+    },
+    {
+      "name": "Pork Ribs",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork ribs",
+        "pork",
+        "ribs"
+      ]
+    },
+    {
+      "name": "Lean Ground Pork",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "lean ground pork",
+        "lean",
+        "ground",
+        "pork"
+      ]
+    },
+    {
+      "name": "Pork Chop",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork chop",
+        "pork",
+        "chop"
+      ]
+    },
+    {
+      "name": "Pork Hock",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork hock",
+        "pork",
+        "hock"
+      ]
+    },
+    {
+      "name": "Pork Belly",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork belly",
+        "pork",
+        "belly"
+      ]
+    },
+    {
+      "name": "Bacon, Cooked",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "bacon, cooked",
+        "bacon,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "Pork Loin Roast",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork loin roast",
+        "pork",
+        "loin",
+        "roast"
+      ]
+    },
+    {
+      "name": "Pork Shoulder, Boneless",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pork shoulder, boneless",
+        "pork",
+        "shoulder,",
+        "boneless"
+      ]
+    },
+    {
+      "name": "Sliced Ham",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "sliced ham",
+        "sliced",
+        "ham"
+      ]
+    },
+    {
+      "name": "Ham, Bone-in",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "ham, bone-in",
+        "ham,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Pancetta",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "pancetta",
+        "pancetta"
+      ]
+    },
+    {
+      "name": "Mortadella",
+      "groupIds": [
+        "pork"
+      ],
+      "searchTerms": [
+        "mortadella",
+        "mortadella"
+      ]
+    },
+    {
+      "name": "Chicken Breast",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken breast",
+        "chicken",
+        "breast"
+      ]
+    },
+    {
+      "name": "Extra Lean Ground Chicken",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "extra lean ground chicken",
+        "extra",
+        "lean",
+        "ground",
+        "chicken"
+      ]
+    },
+    {
+      "name": "Whole Chicken Carcass",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "whole chicken carcass",
+        "whole",
+        "chicken",
+        "carcass"
+      ]
+    },
+    {
+      "name": "Whole Roasting Chicken",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "whole roasting chicken",
+        "whole",
+        "roasting",
+        "chicken"
+      ]
+    },
+    {
+      "name": "Chicken Thighs",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken thighs",
+        "chicken",
+        "thighs"
+      ]
+    },
+    {
+      "name": "Chicken Drumsticks",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken drumsticks",
+        "chicken",
+        "drumsticks"
+      ]
+    },
+    {
+      "name": "Chicken Thighs with Skin",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken thighs with skin",
+        "chicken",
+        "thighs",
+        "with",
+        "skin"
+      ]
+    },
+    {
+      "name": "Whole Rotisserie Chicken",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "whole rotisserie chicken",
+        "whole",
+        "rotisserie",
+        "chicken"
+      ]
+    },
+    {
+      "name": "Chicken Leg, Boneless with Skin",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken leg, boneless with skin",
+        "chicken",
+        "leg,",
+        "boneless",
+        "with",
+        "skin"
+      ]
+    },
+    {
+      "name": "Chicken Wings",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken wings",
+        "chicken",
+        "wings"
+      ]
+    },
+    {
+      "name": "Chicken Liver",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken liver",
+        "chicken",
+        "liver"
+      ]
+    },
+    {
+      "name": "Chicken Breast, Cooked",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken breast, cooked",
+        "chicken",
+        "breast,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "Chicken Leg, Bone-in",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken leg, bone-in",
+        "chicken",
+        "leg,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Chicken Heart",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "chicken heart",
+        "chicken",
+        "heart"
+      ]
+    },
+    {
+      "name": "Frozen Blackberries",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "frozen blackberries",
+        "frozen",
+        "blackberries"
+      ]
+    },
+    {
+      "name": "Cornish Hen",
+      "groupIds": [
+        "poultry"
+      ],
+      "searchTerms": [
+        "cornish hen",
+        "cornish",
+        "hen"
+      ]
+    },
+    {
+      "name": "Extra Lean Ground Turkey",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "extra lean ground turkey",
+        "extra",
+        "lean",
+        "ground",
+        "turkey"
+      ]
+    },
+    {
+      "name": "Turkey Breast",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey breast",
+        "turkey",
+        "breast"
+      ]
+    },
+    {
+      "name": "Sliced Turkey Breast",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "sliced turkey breast",
+        "sliced",
+        "turkey",
+        "breast"
+      ]
+    },
+    {
+      "name": "Turkey Thigh",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey thigh",
+        "turkey",
+        "thigh"
+      ]
+    },
+    {
+      "name": "Turkey Breast, Cooked",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey breast, cooked",
+        "turkey",
+        "breast,",
+        "cooked"
+      ]
+    },
+    {
+      "name": "Turkey Breast, Skin on",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey breast, skin on",
+        "turkey",
+        "breast,",
+        "skin",
+        "on"
+      ]
+    },
+    {
+      "name": "Turkey Bacon",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey bacon",
+        "turkey",
+        "bacon"
+      ]
+    },
+    {
+      "name": "Turkey Thigh, Bone-in",
+      "groupIds": [
+        "turkey"
+      ],
+      "searchTerms": [
+        "turkey thigh, bone-in",
+        "turkey",
+        "thigh,",
+        "bone-in"
+      ]
+    },
+    {
+      "name": "Blueberries",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "blueberries",
+        "blueberries"
+      ]
+    },
+    {
+      "name": "Strawberries",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "strawberries",
+        "strawberries"
+      ]
+    },
+    {
+      "name": "Raspberries",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "raspberries",
+        "raspberries"
+      ]
+    },
+    {
+      "name": "Blackberries",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "blackberries",
+        "blackberries"
+      ]
+    },
+    {
+      "name": "Apple",
+      "groupIds": [
+        "high-salicylate",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "apple",
+        "apple"
+      ]
+    },
+    {
+      "name": "Grapes",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "grapes",
+        "grapes"
+      ]
+    },
+    {
+      "name": "Peach",
+      "groupIds": [
+        "high-salicylate",
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "peach",
+        "peach"
+      ]
+    },
+    {
+      "name": "Cucumber",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "cucumber",
+        "cucumber"
+      ]
+    },
+    {
+      "name": "Zucchini",
+      "groupIds": [
+        "high-salicylate",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "zucchini",
+        "zucchini"
+      ]
+    },
+    {
+      "name": "Radishes",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "radishes",
+        "radishes"
+      ]
+    },
+    {
+      "name": "Spinach",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "spinach",
+        "spinach"
+      ]
+    },
+    {
+      "name": "Baby Spinach",
+      "groupIds": [
+        "high-salicylate",
+        "high-oxalate",
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "baby spinach",
+        "baby",
+        "spinach"
+      ]
+    },
+    {
+      "name": "Sunflower Seeds",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "sunflower seeds",
+        "sunflower",
+        "seeds"
+      ]
+    },
+    {
+      "name": "Basil Leaves",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "basil leaves",
+        "basil",
+        "leaves"
+      ]
+    },
+    {
+      "name": "Thyme",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "thyme",
+        "thyme"
+      ]
+    },
+    {
+      "name": "Thyme Sprigs",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "thyme sprigs",
+        "thyme",
+        "sprigs"
+      ]
+    },
+    {
+      "name": "Mint Leaves",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "mint leaves",
+        "mint",
+        "leaves"
+      ]
+    },
+    {
+      "name": "Curry Powder",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "curry powder",
+        "curry",
+        "powder"
+      ]
+    },
+    {
+      "name": "Cumin",
+      "groupIds": [
+        "high-salicylate"
+      ],
+      "searchTerms": [
+        "cumin",
+        "cumin"
+      ]
+    },
+    {
+      "name": "Collard Greens",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "collard greens",
+        "collard",
+        "greens"
+      ]
+    },
+    {
+      "name": "Kale Leaves",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "kale leaves",
+        "kale",
+        "leaves"
+      ]
+    },
+    {
+      "name": "Beet",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "beet",
+        "beet"
+      ]
+    },
+    {
+      "name": "Sweet Potato",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "sweet potato",
+        "sweet",
+        "potato"
+      ]
+    },
+    {
+      "name": "Rhubarb",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "rhubarb",
+        "rhubarb"
+      ]
+    },
+    {
+      "name": "Peanuts",
+      "groupIds": [
+        "high-oxalate",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "peanuts",
+        "peanuts"
+      ]
+    },
+    {
+      "name": "Sesame Seeds",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "sesame seeds",
+        "sesame",
+        "seeds"
+      ]
+    },
+    {
+      "name": "Chia Seeds",
+      "groupIds": [
+        "high-oxalate"
+      ],
+      "searchTerms": [
+        "chia seeds",
+        "chia",
+        "seeds"
+      ]
+    },
+    {
+      "name": "Avocado",
+      "groupIds": [
+        "high-histamine"
+      ],
+      "searchTerms": [
+        "avocado",
+        "avocado"
+      ]
+    },
+    {
+      "name": "Shallots",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "shallots",
+        "shallots"
+      ]
+    },
+    {
+      "name": "Pear",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "pear",
+        "pear"
+      ]
+    },
+    {
+      "name": "Watermelon",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "watermelon",
+        "watermelon"
+      ]
+    },
+    {
+      "name": "Mango",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "mango",
+        "mango"
+      ]
+    },
+    {
+      "name": "Kidney Beans",
+      "groupIds": [
+        "high-fodmap",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "kidney beans",
+        "kidney",
+        "beans"
+      ]
+    },
+    {
+      "name": "Cauliflower",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "cauliflower",
+        "cauliflower"
+      ]
+    },
+    {
+      "name": "Asparagus",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "asparagus",
+        "asparagus"
+      ]
+    },
+    {
+      "name": "Wheat",
+      "groupIds": [
+        "high-fodmap",
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "wheat",
+        "wheat"
+      ]
+    },
+    {
+      "name": "Rye",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "rye",
+        "rye"
+      ]
+    },
+    {
+      "name": "Milk",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "milk",
+        "milk"
+      ]
+    },
+    {
+      "name": "Yogurt",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "yogurt",
+        "yogurt"
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "groupIds": [
+        "high-fodmap"
+      ],
+      "searchTerms": [
+        "ice cream",
+        "ice",
+        "cream"
+      ]
+    },
+    {
+      "name": "Rice",
+      "groupIds": [
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "rice",
+        "rice"
+      ]
+    },
+    {
+      "name": "Quinoa",
+      "groupIds": [
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "quinoa",
+        "quinoa"
+      ]
+    },
+    {
+      "name": "Spaghetti Squash",
+      "groupIds": [
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "spaghetti squash",
+        "spaghetti",
+        "squash"
+      ]
+    },
+    {
+      "name": "Butternut Squash",
+      "groupIds": [
+        "high-lectin"
+      ],
+      "searchTerms": [
+        "butternut squash",
+        "butternut",
+        "squash"
+      ]
+    }
+  ]
+}
