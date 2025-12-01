@@ -102,6 +102,7 @@ export interface InputProps {
   error?: string;
   className?: string;
   type?: string;
+  autoFocus?: boolean;
 }
 
 export interface SelectOption {

@@ -11,8 +11,9 @@ import Avatar from '../common/Avatar';
 import Select from '../common/Select';
 import Button from '../common/Button';
 import MultiSelectField from '../common/MultiSelectField';
-import { NutritionPlan, SelectOption } from '../../types/nutrition';
+import { NutritionPlan } from '../../types/nutrition';
 import { FOOD_EXCLUSIONS } from '../../constants/foodExclusions';
+import { mockOwners } from '../../data/mockOwners';
 
 interface EditPlanFormProps {
   plan: NutritionPlan;
@@ -46,13 +47,6 @@ const GOAL_OPTIONS = [
   'Blood Sugar Control',
   'Digestive Health',
   'Athletic Performance',
-];
-
-const OWNER_OPTIONS: SelectOption[] = [
-  { id: '1', name: 'Sarah Johnson', avatarUrl: null },
-  { id: '2', name: 'John Doe', avatarUrl: null },
-  { id: '3', name: 'Jane Smith', avatarUrl: null },
-  { id: '4', name: 'Alex Martinez', avatarUrl: null },
 ];
 
 // Get all exclusion options from FOOD_EXCLUSIONS
@@ -115,7 +109,7 @@ const parseToArray = (value: string | undefined): string[] => {
 const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focusField }: EditPlanFormProps) => {
   const [planName, setPlanName] = useState(plan.title);
   // Find the owner ID based on the name
-  const initialOwnerId = OWNER_OPTIONS.find(o => o.name === plan.ownerName)?.id || null;
+  const initialOwnerId = mockOwners.find(o => o.name === plan.ownerName)?.id || null;
   const [ownerId, setOwnerId] = useState<string | null>(initialOwnerId);
   const [ownerDropdownOpen, setOwnerDropdownOpen] = useState(openOwnerDropdown);
   const [dietaryPreferences, setDietaryPreferences] = useState<string[]>(
@@ -166,12 +160,13 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
 
 
   const handleSave = () => {
-    // Find the owner name from the ID
-    const ownerName = OWNER_OPTIONS.find(o => o.id === ownerId)?.name || '';
+    // Find the owner name and avatar from the ID
+    const selectedOwner = mockOwners.find(o => o.id === ownerId);
 
     onSave({
       title: planName,
-      ownerName,
+      ownerName: selectedOwner?.name || '',
+      avatarUrl: selectedOwner?.avatarUrl || null,
       dietaryPreferences: dietaryPreferences.join(', '),
       goals: goals.join(', '),
       exclusions: exclusions.join(', '),
@@ -237,7 +232,7 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
           {/* Client */}
           <div className="flex items-start gap-3">
             {(() => {
-              const selectedOwner = OWNER_OPTIONS.find(o => o.id === ownerId);
+              const selectedOwner = mockOwners.find(o => o.id === ownerId);
               return (
                 <Avatar
                   imageUrl={selectedOwner?.avatarUrl || null}
@@ -252,7 +247,7 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
                 label="Client"
                 value={ownerId}
                 onChange={setOwnerId}
-                options={OWNER_OPTIONS}
+                options={mockOwners}
                 open={ownerDropdownOpen}
                 onOpenChange={setOwnerDropdownOpen}
                 showAvatar={false}

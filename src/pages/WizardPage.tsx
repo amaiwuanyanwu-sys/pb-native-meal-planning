@@ -38,8 +38,8 @@ const WizardContent = () => {
 
   if (!plan) return null;
 
-  // Find owner info for context bar
-  const owner = mockOwners.find(o => o.id === plan.ownerName) || {
+  // Find owner info for context bar by name
+  const owner = mockOwners.find(o => o.name === plan.ownerName) || {
     id: 'default',
     name: plan.ownerName,
     avatarUrl: plan.avatarUrl,
@@ -116,11 +116,16 @@ const WizardPage = () => {
     return null;
   }
 
+  // Find the client ID from the plan's owner name
+  const clientId = plan.ownerName
+    ? mockOwners.find(owner => owner.name === plan.ownerName)?.id || null
+    : null;
+
   return (
     <WizardProvider
       planId={plan.id}
       initialPlanName={plan.title}
-      initialClientId={null}
+      initialClientId={clientId}
     >
       <WizardContent />
     </WizardProvider>

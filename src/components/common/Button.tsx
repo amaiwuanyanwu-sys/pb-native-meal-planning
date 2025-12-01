@@ -15,15 +15,19 @@ const Button = ({
   const variantClasses = {
     primary: disabled
       ? 'bg-[#C1C9CB] text-white cursor-not-allowed'
-      : 'bg-[#01272E] text-white hover:bg-[#01272E] active:bg-[#01272E]',
-    secondary: 'bg-white text-[#01272E] border border-slate-500 hover:bg-gray-50',
-    ghost: 'bg-transparent text-[#385459] hover:bg-gray-50',
+      : 'bg-[#01272E] text-white hover:bg-[#244348] active:bg-[#01272E]',
+    secondary: disabled
+      ? 'bg-gray-100 text-gray-400 border border-gray-300 cursor-not-allowed'
+      : 'bg-white text-[#01272E] border border-slate-500 hover:bg-gray-50',
+    ghost: disabled
+      ? 'bg-transparent text-gray-400 cursor-not-allowed'
+      : 'bg-transparent text-[#385459] hover:bg-gray-50',
   };
 
   const sizeClasses = {
     sm: 'px-3 py-1.5 text-sm h-[30px]',
     md: 'px-4 py-2 text-sm h-[36px]',
-    lg: 'px-6 py-2.5 text-base h-[40px]',
+    lg: 'px-6 py-2.5 text-sm h-[40px]',
   };
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {

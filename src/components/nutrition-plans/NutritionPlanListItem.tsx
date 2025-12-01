@@ -14,8 +14,7 @@ const NutritionPlanListItem = ({ plan, onClick, onDelete }: NutritionPlanListIte
     console.log('Plan list item clicked:', plan.title);
   };
 
-  const handleDelete = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  const handleDelete = () => {
     if (onDelete) {
       onDelete(plan);
     }
@@ -49,13 +48,13 @@ const NutritionPlanListItem = ({ plan, onClick, onDelete }: NutritionPlanListIte
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3" onClick={(e) => e.stopPropagation()}>
         <IconButton
           icon={<DeleteOutlineIcon sx={{ fontSize: 20 }} />}
           tooltip="Delete nutrition plan"
           variant="ghost"
           size="md"
-          onClick={() => handleDelete}
+          onClick={handleDelete}
         />
       </div>
     </div>

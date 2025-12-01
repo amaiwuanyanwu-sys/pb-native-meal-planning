@@ -72,6 +72,7 @@ const NewNutritionPlanModal = ({
             placeholder="Give your plan a name"
             required
             error={errors.planName}
+            autoFocus
           />
 
           <Select

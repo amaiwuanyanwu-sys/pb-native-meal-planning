@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useWizard, clearDraft } from '../../../contexts/WizardContext';
 import { usePlans } from '../../../contexts/PlanContext';
+import { mockOwners } from '../../../data/mockOwners';
 import Input from '../../common/Input';
 import WizardNavigation from '../WizardNavigation';
 import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked';
@@ -49,10 +50,16 @@ const Step6FinalizePlan = () => {
       }
     ] : [];
 
+    // Find the selected owner to get their name and avatar
+    const selectedOwner = formData.clientId
+      ? mockOwners.find(owner => owner.id === formData.clientId)
+      : null;
+
     // Update the plan with wizard data
     updatePlan(planId, {
       title: formData.planName || currentPlan.title,
-      ownerName: formData.clientId || currentPlan.ownerName,
+      ownerName: selectedOwner?.name || currentPlan.ownerName,
+      avatarUrl: selectedOwner?.avatarUrl || currentPlan.avatarUrl,
       dietaryPreferences: formData.foodPreferences.dietPreferences?.join(', ') || '',
       goals: formData.nutritionGoals.specificGoals?.join(', ') || '',
       medicalConditions: '', // Medical conditions are handled in nutrition goals

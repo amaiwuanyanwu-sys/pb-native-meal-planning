@@ -9,6 +9,7 @@ const Input = ({
   error,
   className = '',
   type = 'text',
+  autoFocus = false,
 }: InputProps) => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChange(e.target.value);
@@ -21,6 +22,7 @@ const Input = ({
         value={value}
         onChange={handleChange}
         placeholder=" "
+        autoFocus={autoFocus}
         className={`
           peer
           w-full h-10 px-3

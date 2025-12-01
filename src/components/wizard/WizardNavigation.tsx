@@ -1,6 +1,7 @@
 import Button from '../common/Button';
 import { KeyboardArrowRightIcon } from '../../utils/wizardIcons';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import IconButton from '../common/IconButton';
 
 interface WizardNavigationProps {
   onNext: () => void;
@@ -30,7 +31,7 @@ const WizardNavigation = ({
             <Button
               onClick={onCancel}
               variant="ghost"
-              size="md"
+              size="lg"
               className="text-[#385459] hover:bg-[#F0F2F3]"
             >
               Cancel
@@ -41,21 +42,21 @@ const WizardNavigation = ({
         {/* Right Side - Previous + Next */}
         <div className="flex items-center gap-3">
           {showPrevious && onPrevious && (
-            <button
+            <IconButton
               onClick={onPrevious}
-              className="flex items-center justify-center w-10 h-10 rounded border border-[#01272E] text-[#385459] hover:bg-[#F0F2F3] active:bg-[#DFE3E4] transition-colors"
-              aria-label="Previous"
-            >
-              <KeyboardArrowLeftIcon sx={{ fontSize: 24 }} />
-            </button>
+              variant='secondary'
+              tooltip='Previous'
+              size='lg'
+              icon={<KeyboardArrowLeftIcon sx={{ fontSize: 24 }} />}
+            />
           )}
+
           <Button
             onClick={onNext}
             variant="primary"
-            size="md"
+            size="lg"
             disabled={isNextDisabled}
             icon={<KeyboardArrowRightIcon sx={{ fontSize: 24 }} />}
-            className="bg-[#01272E] hover:bg-[#244348] active:bg-[#01272E]"
           >
             {nextLabel}
           </Button>
