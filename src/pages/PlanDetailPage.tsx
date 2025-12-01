@@ -14,7 +14,6 @@ import ShareIcon from '@mui/icons-material/Share';
 import CalendarViewMonthIcon from '@mui/icons-material/CalendarViewMonth';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import FilePresentIcon from '@mui/icons-material/FilePresentOutlined';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import WizardIcon from '../components/icons/WizardIcon';
 import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
@@ -71,10 +70,6 @@ const PlanDetailPage = () => {
     plan.goals ||
     plan.medicalConditions ||
     plan.exclusions;
-
-  const showMealPlans = activeTab === 'all' || activeTab === 'meal-plans';
-  const showRecipes = activeTab === 'all' || activeTab === 'recipe-box';
-  const showResources = activeTab === 'all' || activeTab === 'additional-resources';
 
   // Empty state - show onboarding
   if (!hasContent) {

@@ -41,10 +41,6 @@ const RecipesPage = () => {
     }
   };
 
-  const isRecipeSelected = (recipeId: string) => {
-    return selectedRecipes.includes(recipeId);
-  };
-
   return (
     <MainTemplate
       leftSidebar={

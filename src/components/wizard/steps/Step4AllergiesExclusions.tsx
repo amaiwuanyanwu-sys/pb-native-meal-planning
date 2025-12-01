@@ -208,7 +208,7 @@ const Step4AllergiesExclusions = () => {
                 if (serviceGroup) return false;
                 return isItemDisabledByGroup(option, exclusions);
               }}
-              filterOptions={(options, params) => {
+              filterOptions={(_options, params) => {
                 const query = params.inputValue.toLowerCase();
 
                 if (!query) {

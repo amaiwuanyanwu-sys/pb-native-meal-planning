@@ -21,16 +21,6 @@ const NutritionPlanListItem = ({ plan, onClick, onDelete }: NutritionPlanListIte
     }
   };
 
-  // Format date as "MMM DD, YYYY"
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
-      month: 'short',
-      day: 'numeric',
-      year: 'numeric'
-    });
-  };
-
   return (
     <div
       onClick={handleClick}

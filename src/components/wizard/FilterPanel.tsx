@@ -430,7 +430,7 @@ const FilterPanel = ({ isCollapsed, onToggleCollapse, onFilterChange: _onFilterC
                       if (serviceGroup) return false;
                       return isItemDisabledByGroup(option, selectedExclusions);
                     }}
-                    filterOptions={(options, params) => {
+                    filterOptions={(_options, params) => {
                       const query = params.inputValue.toLowerCase();
 
                       if (!query) {
