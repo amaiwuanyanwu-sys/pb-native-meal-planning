@@ -88,6 +88,7 @@ const NewNutritionPlanModal = ({
             options={availableOwners}
             placeholder="Select owner or template"
             helpText="We won't share the plan with them until you're ready"
+            required
           />
 
           {selectedOwnerId && (

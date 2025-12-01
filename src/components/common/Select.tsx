@@ -13,6 +13,7 @@ const Select = ({
   open,
   onOpenChange,
   showAvatar = true,
+  required = false,
 }: SelectProps) => {
   const selectedOption = options.find((opt) => opt.id === value);
   const hasValue = !!value;
@@ -77,6 +78,7 @@ const Select = ({
           `}
         >
           {label}
+          {required && <span className="text-[#244348]"> *</span>}
         </label>
 
         <SelectPrimitive.Portal>

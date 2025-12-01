@@ -125,6 +125,7 @@ export interface SelectProps {
   open?: boolean;
   onOpenChange?: (open: boolean) => void;
   showAvatar?: boolean;
+  required?: boolean;
 }
 
 export interface NewNutritionPlanModalProps {
