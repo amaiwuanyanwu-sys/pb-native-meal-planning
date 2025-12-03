@@ -56,6 +56,7 @@ const WizardNavigation = ({
             variant="primary"
             size="lg"
             disabled={isNextDisabled}
+            id={nextLabel.toLowerCase().replace(/\s+/g, '-') + '-button'}
             icon={<KeyboardArrowRightIcon sx={{ fontSize: 24 }} />}
           >
             {nextLabel}

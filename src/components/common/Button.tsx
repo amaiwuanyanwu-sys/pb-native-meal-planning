@@ -9,6 +9,7 @@ const Button = ({
   iconPosition = 'right',
   className = '',
   disabled = false,
+  id = ""
 }: ButtonProps) => {
   const baseClasses = 'rounded font-semibold transition-colors duration-200 flex items-center gap-1';
 
@@ -37,6 +38,7 @@ const Button = ({
 
   return (
     <button
+      id={id}
       onClick={handleClick}
       disabled={disabled}
       className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className} flex items-center justify-center`}
