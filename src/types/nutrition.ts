@@ -72,6 +72,7 @@ export interface ButtonProps {
   iconPosition?: 'left' | 'right';
   className?: string;
   disabled?: boolean;
+  id?: string;
 }
 
 export interface TabsProps {
