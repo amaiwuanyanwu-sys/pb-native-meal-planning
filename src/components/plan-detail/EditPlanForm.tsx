@@ -634,7 +634,7 @@ const EditPlanForm = ({ plan, onSave, onCancel, openOwnerDropdown = false, focus
         <Button variant="ghost" onClick={onCancel} className="flex-1">
           Cancel
         </Button>
-        <Button variant="primary" onClick={handleSave} className="flex-1">
+        <Button id='save-plan-preferences' variant="primary" onClick={handleSave} className="flex-1">
           Save
         </Button>
       </div>
